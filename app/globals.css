@@ -127,9 +127,10 @@ ol {
   white-space: nowrap;
 }
 .skip-link {
-  position: absolute;
+  position: fixed;
   left: 12px;
-  top: -60px;
+  top: 12px;
+  transform: translateY(-200%);
   z-index: 100;
   background: var(--ink);
   color: var(--white);
@@ -137,7 +138,7 @@ ol {
   border-radius: var(--r-s);
 }
 .skip-link:focus {
-  top: 12px;
+  transform: none;
   color: var(--white);
 }
 
