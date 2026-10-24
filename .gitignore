@@ -1,0 +1,7 @@
+node_modules
+.next
+out
+.media-cache
+next-env.d.ts
+*.tsbuildinfo
+screenshots/tmp

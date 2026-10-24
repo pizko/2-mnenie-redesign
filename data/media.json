@@ -1,0 +1,810 @@
+{
+ "gandur-maksim-zhubran": {
+  "photo": {
+   "base": "/media/specialists/gandur-maksim-zhubran/photo",
+   "width": 900,
+   "height": 1200,
+   "widths": [
+    240,
+    400,
+    640,
+    900
+   ]
+  },
+  "certificates": [
+   {
+    "id": "55225816-d788-48d4-b567-923d1363ca40",
+    "base": "/media/specialists/gandur-maksim-zhubran/cert-55225816",
+    "width": 1190,
+    "height": 812,
+    "widths": [
+     360
+    ]
+   },
+   {
+    "id": "c0a22a4a-7571-4f77-8633-fe84e8b52f1c",
+    "base": "/media/specialists/gandur-maksim-zhubran/cert-c0a22a4a",
+    "width": 1600,
+    "height": 1163,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "b4402a99-d1b7-4eca-813a-242bb1dc02c0",
+    "base": "/media/specialists/gandur-maksim-zhubran/cert-b4402a99",
+    "width": 1600,
+    "height": 1163,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "eb26396e-77f0-4eaa-917c-9d3ebf16b9c9",
+    "base": "/media/specialists/gandur-maksim-zhubran/cert-eb26396e",
+    "width": 1282,
+    "height": 1815,
+    "widths": [
+     360
+    ]
+   },
+   {
+    "id": "c8881f71-5fa3-4b71-bd96-4fabdea307b9",
+    "base": "/media/specialists/gandur-maksim-zhubran/cert-c8881f71",
+    "width": 1273,
+    "height": 1818,
+    "widths": [
+     360
+    ]
+   },
+   {
+    "id": "03e86bb9-c696-4b7e-8849-a80a2a4e612f",
+    "base": "/media/specialists/gandur-maksim-zhubran/cert-03e86bb9",
+    "width": 1295,
+    "height": 1871,
+    "widths": [
+     360
+    ]
+   },
+   {
+    "id": "5951a4d8-ca84-426e-a91d-e757b8ec04e8",
+    "base": "/media/specialists/gandur-maksim-zhubran/cert-5951a4d8",
+    "width": 1320,
+    "height": 1897,
+    "widths": [
+     360
+    ]
+   },
+   {
+    "id": "bf8a5237-c548-48c8-ab27-05b388f6af64",
+    "base": "/media/specialists/gandur-maksim-zhubran/cert-bf8a5237",
+    "width": 1600,
+    "height": 1131,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "a805968e-6870-4fb6-bbfe-55a9e1044d13",
+    "base": "/media/specialists/gandur-maksim-zhubran/cert-a805968e",
+    "width": 1129,
+    "height": 800,
+    "widths": [
+     360
+    ]
+   },
+   {
+    "id": "18463e95-eb9b-4301-83b8-0d62035b3042",
+    "base": "/media/specialists/gandur-maksim-zhubran/cert-18463e95",
+    "width": 1295,
+    "height": 729,
+    "widths": [
+     360
+    ]
+   },
+   {
+    "id": "e0ceba84-b098-48d9-a617-d1b5a531a90f",
+    "base": "/media/specialists/gandur-maksim-zhubran/cert-e0ceba84",
+    "width": 1297,
+    "height": 730,
+    "widths": [
+     360
+    ]
+   },
+   {
+    "id": "b5e5eaac-a6f0-4c61-aadf-a99fdb532c6c",
+    "base": "/media/specialists/gandur-maksim-zhubran/cert-b5e5eaac",
+    "width": 1321,
+    "height": 915,
+    "widths": [
+     360
+    ]
+   },
+   {
+    "id": "a3bf8a3b-409d-4355-9f64-1583e3de4492",
+    "base": "/media/specialists/gandur-maksim-zhubran/cert-a3bf8a3b",
+    "width": 941,
+    "height": 648,
+    "widths": [
+     360
+    ]
+   }
+  ]
+ },
+ "kabasheva-olga-aleksandrovna": {
+  "photo": {
+   "base": "/media/specialists/kabasheva-olga-aleksandrovna/photo",
+   "width": 901,
+   "height": 1200,
+   "widths": [
+    240,
+    400,
+    640,
+    900
+   ]
+  },
+  "certificates": [
+   {
+    "id": "4854b886-dddd-4e43-9f9b-71c442fc7021",
+    "base": "/media/specialists/kabasheva-olga-aleksandrovna/cert-4854b886",
+    "width": 1600,
+    "height": 1152,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "d00f9347-7fa3-41b9-9ff4-bb25271a18de",
+    "base": "/media/specialists/kabasheva-olga-aleksandrovna/cert-d00f9347",
+    "width": 1600,
+    "height": 1142,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "89e60170-f732-4330-bbb6-9bd61840e9fd",
+    "base": "/media/specialists/kabasheva-olga-aleksandrovna/cert-89e60170",
+    "width": 1600,
+    "height": 1140,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "c24c5a1a-3404-41d2-8fc5-2d425b07c13a",
+    "base": "/media/specialists/kabasheva-olga-aleksandrovna/cert-c24c5a1a",
+    "width": 1600,
+    "height": 1155,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "8b134569-db39-4733-a4e5-98a6891a2408",
+    "base": "/media/specialists/kabasheva-olga-aleksandrovna/cert-8b134569",
+    "width": 1280,
+    "height": 905,
+    "widths": [
+     360
+    ]
+   },
+   {
+    "id": "dae3559a-6286-4aaa-a074-41c7c4e43565",
+    "base": "/media/specialists/kabasheva-olga-aleksandrovna/cert-dae3559a",
+    "width": 1600,
+    "height": 1131,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "6462c61d-fbc4-4bd8-86d1-8e1a63739fb9",
+    "base": "/media/specialists/kabasheva-olga-aleksandrovna/cert-6462c61d",
+    "width": 1600,
+    "height": 1110,
+    "widths": [
+     360,
+     1400
+    ]
+   }
+  ]
+ },
+ "kuklina-nadezhda-alekseevna": {
+  "photo": {
+   "base": "/media/specialists/kuklina-nadezhda-alekseevna/photo",
+   "width": 961,
+   "height": 825,
+   "widths": [
+    240,
+    400,
+    640,
+    900
+   ]
+  },
+  "certificates": []
+ },
+ "pushkin-artem-mihaylovich": {
+  "photo": {
+   "base": "/media/specialists/pushkin-artem-mihaylovich/photo",
+   "width": 900,
+   "height": 1200,
+   "widths": [
+    240,
+    400,
+    640,
+    900
+   ]
+  },
+  "certificates": [
+   {
+    "id": "1d6f5a4a-1584-47cf-ad35-a4dcfd804374",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-1d6f5a4a",
+    "width": 1600,
+    "height": 1164,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "e17c3347-03dc-442c-bea0-3d02e12f73ea",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-e17c3347",
+    "width": 1600,
+    "height": 1164,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "7ff02bf1-340a-4ff8-9bc8-816bf88e4431",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-7ff02bf1",
+    "width": 1600,
+    "height": 1164,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "3947e074-b086-45e3-8906-60d87b3d781b",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-3947e074",
+    "width": 1600,
+    "height": 1164,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "70c71ed7-dedd-4903-9836-1147cc4fdac1",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-70c71ed7",
+    "width": 1600,
+    "height": 1164,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "59a26554-5447-4417-99c1-eca5dcf05b05",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-59a26554",
+    "width": 1600,
+    "height": 1164,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "027f044e-1f81-4b68-b0d2-8bb46edbcd88",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-027f044e",
+    "width": 1600,
+    "height": 1164,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "c278bda2-40da-438c-a0f6-0509ad7a90c4",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-c278bda2",
+    "width": 1600,
+    "height": 1164,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "c43373f5-2b85-4ea5-b483-222867375d21",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-c43373f5",
+    "width": 1600,
+    "height": 1164,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "8e7cad45-eddd-4bdc-ac86-6a2425344c39",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-8e7cad45",
+    "width": 1600,
+    "height": 1164,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "78dec971-2c7d-4515-a47a-a0d5f5e4088a",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-78dec971",
+    "width": 1600,
+    "height": 1164,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "d202b5b7-4a71-435c-987d-dbd145e76e6c",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-d202b5b7",
+    "width": 1600,
+    "height": 1164,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "2d803dd3-bb1a-47d5-8850-3ff55277c445",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-2d803dd3",
+    "width": 1600,
+    "height": 1164,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "e5fc8e0e-3b9b-449a-b621-d99b78fcc353",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-e5fc8e0e",
+    "width": 1600,
+    "height": 1164,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "ba736669-4cd8-4f19-9774-2e2130834075",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-ba736669",
+    "width": 1600,
+    "height": 1164,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "071fab0b-3a93-4d83-b919-12eb4f7444f1",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-071fab0b",
+    "width": 1600,
+    "height": 1164,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "73f75fde-c41f-4ebc-b215-e39f6fa8563b",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-73f75fde",
+    "width": 1600,
+    "height": 1164,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "74531ad6-25a3-4f32-aa95-0c4d424eb09b",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-74531ad6",
+    "width": 1600,
+    "height": 1164,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "587bab53-50c5-4c7d-ba3e-db2d1313e439",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-587bab53",
+    "width": 1600,
+    "height": 1164,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "3995696b-ab93-4532-a46d-864c33f789b1",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-3995696b",
+    "width": 1600,
+    "height": 1164,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "5cfbfc43-f957-41a0-ba63-1fb7cfe3cfb7",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-5cfbfc43",
+    "width": 1600,
+    "height": 1164,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "5fc9d8d8-108b-4ca6-ad63-9d4dd8ed2b91",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-5fc9d8d8",
+    "width": 1600,
+    "height": 1164,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "b1371bdb-8c86-41fe-a300-361f78f12f39",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-b1371bdb",
+    "width": 1600,
+    "height": 1164,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "0bf4f421-de2f-46d3-a6c0-238d8c6b1055",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-0bf4f421",
+    "width": 1600,
+    "height": 1164,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "d002b1eb-0a76-4984-959f-4f1092f9f08b",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-d002b1eb",
+    "width": 1600,
+    "height": 1164,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "52fabcd5-507e-4eaf-b006-0b6a7d403676",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-52fabcd5",
+    "width": 1600,
+    "height": 1164,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "1c48942f-95d5-4a97-b7f8-0ffcc5a73385",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-1c48942f",
+    "width": 1600,
+    "height": 1164,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "82c5a749-7d96-4bab-8de3-54368a904702",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-82c5a749",
+    "width": 1600,
+    "height": 893,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "10773682-5d27-4930-b24e-f6775489afa6",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-10773682",
+    "width": 1600,
+    "height": 1131,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "4ffeee8d-3a0d-477a-89b7-d450639cd629",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-4ffeee8d",
+    "width": 1600,
+    "height": 1131,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "398fea94-a57a-410c-af86-2edf7ed4f414",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-398fea94",
+    "width": 1600,
+    "height": 1131,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "2fca37d6-d662-4e16-ac13-5f43b3d2568c",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-2fca37d6",
+    "width": 1600,
+    "height": 1131,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "0b9dfd1a-f24c-4641-b49d-49ee51ff2493",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-0b9dfd1a",
+    "width": 1600,
+    "height": 1131,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "c91cd132-8639-4a73-9c26-516c83077bac",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-c91cd132",
+    "width": 1600,
+    "height": 1131,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "f72f3055-322a-44f3-bb3e-a81bd862f5d1",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-f72f3055",
+    "width": 1600,
+    "height": 1131,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "8d493167-6f3e-4606-86b9-2fa98eadb743",
+    "base": "/media/specialists/pushkin-artem-mihaylovich/cert-8d493167",
+    "width": 1600,
+    "height": 1131,
+    "widths": [
+     360,
+     1400
+    ]
+   }
+  ]
+ },
+ "sapelkin-ivan-vasilevich": {
+  "photo": {
+   "base": "/media/specialists/sapelkin-ivan-vasilevich/photo",
+   "width": 853,
+   "height": 1280,
+   "widths": [
+    240,
+    400,
+    640
+   ]
+  },
+  "certificates": [
+   {
+    "id": "fd52d735-a5d6-489d-aa41-66e9e00e4b77",
+    "base": "/media/specialists/sapelkin-ivan-vasilevich/cert-fd52d735",
+    "width": 1280,
+    "height": 932,
+    "widths": [
+     360
+    ]
+   },
+   {
+    "id": "57f33bf7-e61a-4fba-8694-cdd409a26111",
+    "base": "/media/specialists/sapelkin-ivan-vasilevich/cert-57f33bf7",
+    "width": 1599,
+    "height": 1199,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "9b803ca1-2a84-4fd0-b5a5-851bcfc41dc2",
+    "base": "/media/specialists/sapelkin-ivan-vasilevich/cert-9b803ca1",
+    "width": 1069,
+    "height": 747,
+    "widths": [
+     360
+    ]
+   }
+  ]
+ },
+ "suhareva-anna-georgievna": {
+  "photo": {
+   "base": "/media/specialists/suhareva-anna-georgievna/photo",
+   "width": 539,
+   "height": 1200,
+   "widths": [
+    240,
+    400
+   ]
+  },
+  "certificates": [
+   {
+    "id": "4626e549-e6b6-4a21-8b92-b636f270071c",
+    "base": "/media/specialists/suhareva-anna-georgievna/cert-4626e549",
+    "width": 1600,
+    "height": 1200,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "cb9e3e01-fc9f-4266-b2e9-7349398901f1",
+    "base": "/media/specialists/suhareva-anna-georgievna/cert-cb9e3e01",
+    "width": 1600,
+    "height": 1119,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "7ea4bc6a-0c21-4808-bc09-b6db4ff6d549",
+    "base": "/media/specialists/suhareva-anna-georgievna/cert-7ea4bc6a",
+    "width": 1600,
+    "height": 1080,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "ef64abf6-170e-44a3-9d4f-0df6d022cee3",
+    "base": "/media/specialists/suhareva-anna-georgievna/cert-ef64abf6",
+    "width": 1600,
+    "height": 1118,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "f9c101a9-5cb8-4912-8438-a1dd1af14ea3",
+    "base": "/media/specialists/suhareva-anna-georgievna/cert-f9c101a9",
+    "width": 1600,
+    "height": 719,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "4350c1a4-00c2-4403-b7b4-176c50513734",
+    "base": "/media/specialists/suhareva-anna-georgievna/cert-4350c1a4",
+    "width": 1600,
+    "height": 1132,
+    "widths": [
+     360,
+     1400
+    ]
+   }
+  ]
+ },
+ "schetinina-natalya-yurevna": {
+  "photo": {
+   "base": "/media/specialists/schetinina-natalya-yurevna/photo",
+   "width": 960,
+   "height": 1280,
+   "widths": [
+    240,
+    400,
+    640,
+    900
+   ]
+  },
+  "certificates": [
+   {
+    "id": "edc8ef78-70c0-42af-af16-5173c82c0d98",
+    "base": "/media/specialists/schetinina-natalya-yurevna/cert-edc8ef78",
+    "width": 1600,
+    "height": 1116,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "76b695f4-da6a-4904-8489-cab0293599cf",
+    "base": "/media/specialists/schetinina-natalya-yurevna/cert-76b695f4",
+    "width": 1600,
+    "height": 1140,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "b5bf0853-6b85-4331-be00-11114a6852bc",
+    "base": "/media/specialists/schetinina-natalya-yurevna/cert-b5bf0853",
+    "width": 1600,
+    "height": 1149,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "847bfd23-1d74-4a2e-98fd-53b4e487c136",
+    "base": "/media/specialists/schetinina-natalya-yurevna/cert-847bfd23",
+    "width": 1600,
+    "height": 1096,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "fa85ff18-ecec-4420-bce8-5a0ea3dc0702",
+    "base": "/media/specialists/schetinina-natalya-yurevna/cert-fa85ff18",
+    "width": 1600,
+    "height": 1094,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "8e27a60b-719d-4b3b-b7ef-2da473922adb",
+    "base": "/media/specialists/schetinina-natalya-yurevna/cert-8e27a60b",
+    "width": 1600,
+    "height": 1002,
+    "widths": [
+     360,
+     1400
+    ]
+   },
+   {
+    "id": "e95c50e5-c098-43d7-842b-6d65ab82b8b2",
+    "base": "/media/specialists/schetinina-natalya-yurevna/cert-e95c50e5",
+    "width": 1600,
+    "height": 1196,
+    "widths": [
+     360,
+     1400
+    ]
+   }
+  ]
+ }
+}

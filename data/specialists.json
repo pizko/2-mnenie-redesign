@@ -1,0 +1,870 @@
+[
+ {
+  "slug": "gandur-maksim-zhubran",
+  "full_name": "Гандур Максим (Жубран)",
+  "specialty": "Кардиолог · УЗИ-диагност",
+  "short_bio": "Ветеринарный врач-кардиолог, специалист по ультразвуковой диагностике и интервенционным процедурам (абдоминальным и торакальным). Провожу экспертные консультации по врождённым и приобретённым патологиям сердца у кошек и собак. Осуществляю комплексный анализ данных УЗИ, эхокардиографии и ЭКГ, а также консультирую по вопросам малоинвазивных вмешательств. Приём веду на русском, английском и арабском языках.",
+  "experience": "",
+  "photo": "/api/specialists/gandur-maksim-zhubran/media/photo?v=bff3ba28e1322a26",
+  "certificates": [
+   {
+    "id": "55225816-d788-48d4-b567-923d1363ca40",
+    "title": "CatFriendly Гандур Ж.",
+    "filename": "CatFriendly Гандур Ж..jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 136582,
+    "src": "/api/specialists/gandur-maksim-zhubran/media/certificates/55225816-d788-48d4-b567-923d1363ca40?v=3892c86fe20bf166",
+    "thumb": "/api/specialists/gandur-maksim-zhubran/media/certificates/55225816-d788-48d4-b567-923d1363ca40?v=3892c86fe20bf166",
+    "sort_order": 1
+   },
+   {
+    "id": "c0a22a4a-7571-4f77-8633-fe84e8b52f1c",
+    "title": "EDUVet Gandur Jubran",
+    "filename": "EDUVet Gandur Jubran.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 137289,
+    "src": "/api/specialists/gandur-maksim-zhubran/media/certificates/c0a22a4a-7571-4f77-8633-fe84e8b52f1c?v=aae25e0d9f6bd8f4",
+    "thumb": "/api/specialists/gandur-maksim-zhubran/media/certificates/c0a22a4a-7571-4f77-8633-fe84e8b52f1c?v=aae25e0d9f6bd8f4",
+    "sort_order": 2
+   },
+   {
+    "id": "b4402a99-d1b7-4eca-813a-242bb1dc02c0",
+    "title": "LAV Gandur",
+    "filename": "LAV Gandur.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 169754,
+    "src": "/api/specialists/gandur-maksim-zhubran/media/certificates/b4402a99-d1b7-4eca-813a-242bb1dc02c0?v=c798655a67677f9b",
+    "thumb": "/api/specialists/gandur-maksim-zhubran/media/certificates/b4402a99-d1b7-4eca-813a-242bb1dc02c0?v=c798655a67677f9b",
+    "sort_order": 3
+   },
+   {
+    "id": "eb26396e-77f0-4eaa-917c-9d3ebf16b9c9",
+    "title": "Гандур БАЛФ ЭХО",
+    "filename": "Гандур БАЛФ ЭХО.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 119211,
+    "src": "/api/specialists/gandur-maksim-zhubran/media/certificates/eb26396e-77f0-4eaa-917c-9d3ebf16b9c9?v=8d0718e3065aaff4",
+    "thumb": "/api/specialists/gandur-maksim-zhubran/media/certificates/eb26396e-77f0-4eaa-917c-9d3ebf16b9c9?v=8d0718e3065aaff4",
+    "sort_order": 4
+   },
+   {
+    "id": "c8881f71-5fa3-4b71-bd96-4fabdea307b9",
+    "title": "Гандур Биоконт кардио 1",
+    "filename": "Гандур Биоконт кардио 1.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 136927,
+    "src": "/api/specialists/gandur-maksim-zhubran/media/certificates/c8881f71-5fa3-4b71-bd96-4fabdea307b9?v=2dd7c183d7198cf3",
+    "thumb": "/api/specialists/gandur-maksim-zhubran/media/certificates/c8881f71-5fa3-4b71-bd96-4fabdea307b9?v=2dd7c183d7198cf3",
+    "sort_order": 5
+   },
+   {
+    "id": "03e86bb9-c696-4b7e-8849-a80a2a4e612f",
+    "title": "Гандур Биоконт кардио 2",
+    "filename": "Гандур Биоконт кардио 2.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 145201,
+    "src": "/api/specialists/gandur-maksim-zhubran/media/certificates/03e86bb9-c696-4b7e-8849-a80a2a4e612f?v=086d666e0697f4c0",
+    "thumb": "/api/specialists/gandur-maksim-zhubran/media/certificates/03e86bb9-c696-4b7e-8849-a80a2a4e612f?v=086d666e0697f4c0",
+    "sort_order": 6
+   },
+   {
+    "id": "5951a4d8-ca84-426e-a91d-e757b8ec04e8",
+    "title": "Гандур веткадавр кардио",
+    "filename": "Гандур веткадавр кардио.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 203604,
+    "src": "/api/specialists/gandur-maksim-zhubran/media/certificates/5951a4d8-ca84-426e-a91d-e757b8ec04e8?v=3242c7caf3a827e6",
+    "thumb": "/api/specialists/gandur-maksim-zhubran/media/certificates/5951a4d8-ca84-426e-a91d-e757b8ec04e8?v=3242c7caf3a827e6",
+    "sort_order": 7
+   },
+   {
+    "id": "bf8a5237-c548-48c8-ab27-05b388f6af64",
+    "title": "Гандур Ж ЭКГ МВА",
+    "filename": "Гандур Ж ЭКГ МВА.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 192404,
+    "src": "/api/specialists/gandur-maksim-zhubran/media/certificates/bf8a5237-c548-48c8-ab27-05b388f6af64?v=556d2f886b55fcc2",
+    "thumb": "/api/specialists/gandur-maksim-zhubran/media/certificates/bf8a5237-c548-48c8-ab27-05b388f6af64?v=556d2f886b55fcc2",
+    "sort_order": 8
+   },
+   {
+    "id": "a805968e-6870-4fb6-bbfe-55a9e1044d13",
+    "title": "ДрХаг Гандур Жубран",
+    "filename": "ДрХаг Гандур Жубран.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 106761,
+    "src": "/api/specialists/gandur-maksim-zhubran/media/certificates/a805968e-6870-4fb6-bbfe-55a9e1044d13?v=866076d8b1289e97",
+    "thumb": "/api/specialists/gandur-maksim-zhubran/media/certificates/a805968e-6870-4fb6-bbfe-55a9e1044d13?v=866076d8b1289e97",
+    "sort_order": 9
+   },
+   {
+    "id": "18463e95-eb9b-4301-83b8-0d62035b3042",
+    "title": "Ультраветс кардио Гандур Жубран",
+    "filename": "Ультраветс кардио Гандур Жубран.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 131325,
+    "src": "/api/specialists/gandur-maksim-zhubran/media/certificates/18463e95-eb9b-4301-83b8-0d62035b3042?v=6b65404a95f03751",
+    "thumb": "/api/specialists/gandur-maksim-zhubran/media/certificates/18463e95-eb9b-4301-83b8-0d62035b3042?v=6b65404a95f03751",
+    "sort_order": 10
+   },
+   {
+    "id": "e0ceba84-b098-48d9-a617-d1b5a531a90f",
+    "title": "Ультраветс протоколы Гандур Жубран",
+    "filename": "Ультраветс протоколы Гандур Жубран.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 174226,
+    "src": "/api/specialists/gandur-maksim-zhubran/media/certificates/e0ceba84-b098-48d9-a617-d1b5a531a90f?v=6dfbbc96df8ab16f",
+    "thumb": "/api/specialists/gandur-maksim-zhubran/media/certificates/e0ceba84-b098-48d9-a617-d1b5a531a90f?v=6dfbbc96df8ab16f",
+    "sort_order": 11
+   },
+   {
+    "id": "b5e5eaac-a6f0-4c61-aadf-a99fdb532c6c",
+    "title": "Ультраветс торакс Гандур Жубран",
+    "filename": "Ультраветс торакс Гандур Жубран.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 286429,
+    "src": "/api/specialists/gandur-maksim-zhubran/media/certificates/b5e5eaac-a6f0-4c61-aadf-a99fdb532c6c?v=b67768c95391921b",
+    "thumb": "/api/specialists/gandur-maksim-zhubran/media/certificates/b5e5eaac-a6f0-4c61-aadf-a99fdb532c6c?v=b67768c95391921b",
+    "sort_order": 12
+   },
+   {
+    "id": "a3bf8a3b-409d-4355-9f64-1583e3de4492",
+    "title": "УралБиоВет сертификат кардиологиф Гандур Ж.А.",
+    "filename": "УралБиоВет сертификат кардиологиф Гандур Ж.А..jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 135403,
+    "src": "/api/specialists/gandur-maksim-zhubran/media/certificates/a3bf8a3b-409d-4355-9f64-1583e3de4492?v=18dfbba5ace0e240",
+    "thumb": "/api/specialists/gandur-maksim-zhubran/media/certificates/a3bf8a3b-409d-4355-9f64-1583e3de4492?v=18dfbba5ace0e240",
+    "sort_order": 13
+   }
+  ],
+  "source": "database"
+ },
+ {
+  "slug": "kabasheva-olga-aleksandrovna",
+  "full_name": "Кабашева Ольга Александровна",
+  "specialty": "Терапевт · УЗИ-диагност · Гастроэнтеролог",
+  "short_bio": "Кабашева Ольга Александровна\nВетеринарный врач. Терапевт, врач ультразвуковой диагностики, гастроэнтеролог.\n \n- В 2021 году окончила Московскую государственную академию ветеринарной медицины и биотехнологии имени им. К.И. Скрябина по специальности ветеринария. Присвоена квалификация «Ветеринарный врач».\n- С 2022 года работает в ветеринарной клинике «Ветрассвет» московская область, г. Жуковский на должности врача ветеринарной медицины.\n- В марте 2023 года прошла онлайн-курс повышения квалификации по ультразвуковой диагностике по программе “Ультразвуковая диагностика мелких домашних животных модуль 1”\n- В апреле 2023 года прошла онлайн-курс повышения квалификации по ультразвуковой диагностике по программе “Ультразвуковая диагностика мелких домашних животных модуль 2”\n- В июне 2023 года прошла лекционно-практический курс повышения квалификации по ультразвуковой диагностике по программе “УЗИ брюшной полости у кошек и собак. Модуль 1” г. Москва. “Первый ветеринарный институт им. В.Н. Митина”\n- В декабре 2023 года прошла лекционно-практический курс повышения квалификации по ультразвуковой диагностике по программе “УЗИ брюшной полости у кошек и собак. Модуль 2” г. Москва. “Первый ветеринарный институт им. В.Н. Митина”\n- В ноябре 2024 года прошла лекционно-практический курс повышения квалификации по гастроэнтерологии по программе “Гастроэнтерология собак и кошек” г. Москва. “Первый ветеринарный институт им. В.Н. Митина”\n- В марте 2025 года прошла обучение в частном образовательном учреждении дополнительного профессионального образования по гастроэнтерологии по программе “Ветеринарная гастроэнтерология. Второй модуль” г. Санкт-Петербург “Многопрофильный научно-образовательный центр “ДуоКор”\n \n\"Окончила ветеринарную академию имени Скрябина, параллельно работая ассистентом получала свою первую профессиональную практику.\nДалее начала работать в терапевтическом отделении по специальности визуальная диагностика, параллельно совершенствуя свои навыки в области гастроэнтерологии, проходя обучение по данной специальности.\nНа мой взгляд постановка правильного диагноза самый важный этап лечение. Без понимания всех патологических процессов невозможно грамотно подойти к разрешению проблемы\nВо врачебной деятельности есть интересный момент. Чем больше накапливается знаний - тем больше ощущается необходимость в новых. После академии прошла ряд лекционно-практических курсов для повышения своей квалификации у ведущих специалистов России, таких как Имберт Г.С., Видянова З.Б., Безбородова А.В, Солдатов А.А, Калашникова О.В и т.д. Также неоднократно была участником национальной ветеринарной конференции (NVC).\nРабота ветеринарным врачом - это стресс, трата большого количества сил и эмоций. Но также постоянно совершенствование своих знаний, оттачивание умений и, конечно же, огромное количество положительных эмоций от того, что твой пациент идет на поправку.\"",
+  "experience": "",
+  "photo": "/api/specialists/kabasheva-olga-aleksandrovna/media/photo?v=fe2a6313c2715c85",
+  "certificates": [
+   {
+    "id": "4854b886-dddd-4e43-9f9b-71c442fc7021",
+    "title": "Сертификаты Кабашева — стр. 1",
+    "filename": "Сертификаты Кабашева — стр. 1.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 220941,
+    "src": "/api/specialists/kabasheva-olga-aleksandrovna/media/certificates/4854b886-dddd-4e43-9f9b-71c442fc7021?v=04d1c9e8d68f9006",
+    "thumb": "/api/specialists/kabasheva-olga-aleksandrovna/media/certificates/4854b886-dddd-4e43-9f9b-71c442fc7021?v=04d1c9e8d68f9006",
+    "sort_order": 1
+   },
+   {
+    "id": "d00f9347-7fa3-41b9-9ff4-bb25271a18de",
+    "title": "Сертификаты Кабашева — стр. 3",
+    "filename": "Сертификаты Кабашева — стр. 3.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 326366,
+    "src": "/api/specialists/kabasheva-olga-aleksandrovna/media/certificates/d00f9347-7fa3-41b9-9ff4-bb25271a18de?v=df2f6f49a3c3457b",
+    "thumb": "/api/specialists/kabasheva-olga-aleksandrovna/media/certificates/d00f9347-7fa3-41b9-9ff4-bb25271a18de?v=df2f6f49a3c3457b",
+    "sort_order": 2
+   },
+   {
+    "id": "89e60170-f732-4330-bbb6-9bd61840e9fd",
+    "title": "Сертификаты Кабашева — стр. 4",
+    "filename": "Сертификаты Кабашева — стр. 4.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 317973,
+    "src": "/api/specialists/kabasheva-olga-aleksandrovna/media/certificates/89e60170-f732-4330-bbb6-9bd61840e9fd?v=76324f5f8031ddd3",
+    "thumb": "/api/specialists/kabasheva-olga-aleksandrovna/media/certificates/89e60170-f732-4330-bbb6-9bd61840e9fd?v=76324f5f8031ddd3",
+    "sort_order": 3
+   },
+   {
+    "id": "c24c5a1a-3404-41d2-8fc5-2d425b07c13a",
+    "title": "Сертификаты Кабашева — стр. 5",
+    "filename": "Сертификаты Кабашева — стр. 5.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 368842,
+    "src": "/api/specialists/kabasheva-olga-aleksandrovna/media/certificates/c24c5a1a-3404-41d2-8fc5-2d425b07c13a?v=7caa9d49bb0b4478",
+    "thumb": "/api/specialists/kabasheva-olga-aleksandrovna/media/certificates/c24c5a1a-3404-41d2-8fc5-2d425b07c13a?v=7caa9d49bb0b4478",
+    "sort_order": 4
+   },
+   {
+    "id": "8b134569-db39-4733-a4e5-98a6891a2408",
+    "title": "IMG_5914",
+    "filename": "IMG_5914.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 138279,
+    "src": "/api/specialists/kabasheva-olga-aleksandrovna/media/certificates/8b134569-db39-4733-a4e5-98a6891a2408?v=3bc5865549a6df45",
+    "thumb": "/api/specialists/kabasheva-olga-aleksandrovna/media/certificates/8b134569-db39-4733-a4e5-98a6891a2408?v=3bc5865549a6df45",
+    "sort_order": 5
+   },
+   {
+    "id": "dae3559a-6286-4aaa-a074-41c7c4e43565",
+    "title": "IMG_5913",
+    "filename": "IMG_5913.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 184668,
+    "src": "/api/specialists/kabasheva-olga-aleksandrovna/media/certificates/dae3559a-6286-4aaa-a074-41c7c4e43565?v=626dccfeaa915784",
+    "thumb": "/api/specialists/kabasheva-olga-aleksandrovna/media/certificates/dae3559a-6286-4aaa-a074-41c7c4e43565?v=626dccfeaa915784",
+    "sort_order": 6
+   },
+   {
+    "id": "6462c61d-fbc4-4bd8-86d1-8e1a63739fb9",
+    "title": "IMG_5916",
+    "filename": "IMG_5916.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 338961,
+    "src": "/api/specialists/kabasheva-olga-aleksandrovna/media/certificates/6462c61d-fbc4-4bd8-86d1-8e1a63739fb9?v=2c650b5478cd28a5",
+    "thumb": "/api/specialists/kabasheva-olga-aleksandrovna/media/certificates/6462c61d-fbc4-4bd8-86d1-8e1a63739fb9?v=2c650b5478cd28a5",
+    "sort_order": 7
+   }
+  ],
+  "source": "database"
+ },
+ {
+  "slug": "kuklina-nadezhda-alekseevna",
+  "full_name": "Куклина Надежда Алексеевна ",
+  "specialty": "Терапевт · Инфекционист · Гастроэнтеролог",
+  "short_bio": "С 2015 года - ассистент ветеринарного врача, ветеринарная клиника «Амикус Вет». Отделения:  терапия, интенсивная терапия, хирургия. \n\nС 2019 года по 2021 год- ветеринарный врач «Амикус Вет». Отделение терапия, интенсивная терапия/стационар. \nС 2021 г. - по настоящее время ветеринарная клиника «Ветеринар на связи». Область интересов : терапия, гастроэнтерология, инфекционные болезни, интенсивная терапия/стационар. \n\nОбразование: МГАВМиБ им. К. И. Скрябина, ветеринарный врач, 2019.",
+  "experience": "",
+  "photo": "/api/specialists/kuklina-nadezhda-alekseevna/media/photo?v=132104da2d6cc0af",
+  "certificates": [],
+  "source": "database"
+ },
+ {
+  "slug": "pushkin-artem-mihaylovich",
+  "full_name": "Пушкин Артем Михайлович",
+  "specialty": "Кардиолог · Пульмонолог · УЗИ-диагност",
+  "short_bio": "Пушкин Артём Михайлович\n\nВетеринарный врач | Кардиология • Пульмонология • УЗ-диагностика\n\n❤️ Слушает сердца. Разбирается с дыханием. Смотрит внутрь пациентов совершенно легально.\n\nОбразование:\n\n2012 — окончил Прибрежненский аграрный колледж по специальности «Фельдшер ветеринарной медицины» с красным дипломом (Республика Крым).\n2016 — окончил Крымский федеральный университет по специальности «Ветеринарный врач» (Республика Крым).\n\nОпыт работы:\n\n2016 г. и по настоящее время – ветеринарный врач ВК «Габика», г. Жуковский, МО.\n2023 г. и по настоящее время – ветеринарный врач ВК «ВетРассВет», г. Жуковский, МО.\n2023–2025 гг. — главный врач ВК «ВетРассВет», г. Жуковский, МО.\n\nОпыт руководящей работы позволил взглянуть на ветеринарную медицину немного шире: не только со стороны врача, который отвечает за конкретного пациента, но и со стороны организации работы клиники и команды специалистов.\n\nОсновные профессиональные направления:\n\nКардиология — когда нужно выяснить, почему маленькое сердце решило привлечь к себе столько внимания.\nПульмонология — когда «что-то странно дышит» необходимо превратить в нормальный медицинский диагноз.\nУльтразвуковая диагностика — возможность заглянуть внутрь пациента без необходимости объяснять коту, зачем это вообще было нужно.\n\nУчёба, которая никак не заканчивается.\n\nДиплом получен давно. Учёба — нет.\nКаждый год проходит, в среднем, пять профильных конференций, семинаров и курсов повышения квалификации.\nПотому что ветеринарная медицина постоянно развивается, появляются новые исследования, методы диагностики и лечения — и знания врача должны развиваться вместе с ними.\nА ещё потому, что фраза «я десять лет назад это уже изучал» — не самый убедительный аргумент на врачебном консилиуме.\n\nКогда халат остаётся в клинике.\n\nВ свободное время пишет стихи и песни, занимается музыкой и выпускает собственные композиции на стриминговых площадках.\nКоллекционирует виниловые пластинки, потому что иногда приятно услышать характерный треск и понимать, что на этот раз это совершенно точно не артефакт на УЗИ.\nВ общем, профессионально слушает сердца, а добровольно — музыку.\n\nГлавный врач дома.\n\n🐈 Макс Британец. 12 лет. \nСтаж управления человеком — 12 лет.\n\nМакс искренне убеждён, что ветеринарное образование его владельца было получено исключительно ради более квалифицированного обслуживания одного конкретного кота.\n\nВ должностные обязанности Артёма входят:\n— своевременная выдача еды; \n— поглаживания пушистой моськи по первому требованию; \n— обслуживание лотка; \n— открытие дверей, за которыми Максу через 15 секунд станет неинтересно; \n— принятие того факта, что последнее слово всегда остаётся за котом.\nОтношения строго профессиональные.\nЗарплата — разрешение жить в одной квартире.\n\nПациенты: 🐕 собаки и 🐈 кошки\nСтаж: 10 лет \nСпециализация: ❤️ кардиология • пульмонология • ультразвуковая диагностика\n\nПушкин Артём Михайлович \n\nСерьёзный подход к медицине. Чуть менее серьёзный — ко всему остальному.",
+  "experience": "c 2016",
+  "photo": "/api/specialists/pushkin-artem-mihaylovich/media/photo?v=b1d261c34701e2db",
+  "certificates": [
+   {
+    "id": "1d6f5a4a-1584-47cf-ad35-a4dcfd804374",
+    "title": "Сердечно-легочная реанимация",
+    "filename": "IMG_2404.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 300537,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/1d6f5a4a-1584-47cf-ad35-a4dcfd804374?v=c515f6bac7bf0830",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/1d6f5a4a-1584-47cf-ad35-a4dcfd804374?v=c515f6bac7bf0830",
+    "sort_order": 1
+   },
+   {
+    "id": "e17c3347-03dc-442c-bea0-3d02e12f73ea",
+    "title": "Ветеринарный кардиологический конгресс",
+    "filename": "IMG_2405.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 633549,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/e17c3347-03dc-442c-bea0-3d02e12f73ea?v=a32e7fa1bb31049b",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/e17c3347-03dc-442c-bea0-3d02e12f73ea?v=a32e7fa1bb31049b",
+    "sort_order": 2
+   },
+   {
+    "id": "7ff02bf1-340a-4ff8-9bc8-816bf88e4431",
+    "title": "Заболевания органов грудной полости",
+    "filename": "IMG_2411.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 416534,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/7ff02bf1-340a-4ff8-9bc8-816bf88e4431?v=21f1fef1f349c146",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/7ff02bf1-340a-4ff8-9bc8-816bf88e4431?v=21f1fef1f349c146",
+    "sort_order": 3
+   },
+   {
+    "id": "3947e074-b086-45e3-8906-60d87b3d781b",
+    "title": "Болезни дыхательной системы",
+    "filename": "IMG_2410.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 300130,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/3947e074-b086-45e3-8906-60d87b3d781b?v=6a94bb629b6c6423",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/3947e074-b086-45e3-8906-60d87b3d781b?v=6a94bb629b6c6423",
+    "sort_order": 4
+   },
+   {
+    "id": "70c71ed7-dedd-4903-9836-1147cc4fdac1",
+    "title": "Балтийский форум",
+    "filename": "IMG_2409.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 310554,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/70c71ed7-dedd-4903-9836-1147cc4fdac1?v=32ce9086556466ca",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/70c71ed7-dedd-4903-9836-1147cc4fdac1?v=32ce9086556466ca",
+    "sort_order": 5
+   },
+   {
+    "id": "59a26554-5447-4417-99c1-eca5dcf05b05",
+    "title": "Ветеринарный кардиологический конгресс",
+    "filename": "IMG_2408.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 308002,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/59a26554-5447-4417-99c1-eca5dcf05b05?v=06ae9289d203164c",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/59a26554-5447-4417-99c1-eca5dcf05b05?v=06ae9289d203164c",
+    "sort_order": 6
+   },
+   {
+    "id": "027f044e-1f81-4b68-b0d2-8bb46edbcd88",
+    "title": "NVC 2021",
+    "filename": "IMG_2407.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 222739,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/027f044e-1f81-4b68-b0d2-8bb46edbcd88?v=2e32a1ab4dba3c01",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/027f044e-1f81-4b68-b0d2-8bb46edbcd88?v=2e32a1ab4dba3c01",
+    "sort_order": 7
+   },
+   {
+    "id": "c278bda2-40da-438c-a0f6-0509ad7a90c4",
+    "title": "NVC 2022",
+    "filename": "IMG_2406.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 345368,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/c278bda2-40da-438c-a0f6-0509ad7a90c4?v=3b4738579d42e7dc",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/c278bda2-40da-438c-a0f6-0509ad7a90c4?v=3b4738579d42e7dc",
+    "sort_order": 8
+   },
+   {
+    "id": "c43373f5-2b85-4ea5-b483-222867375d21",
+    "title": "Международная ветеринарная конференция",
+    "filename": "IMG_2412.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 271233,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/c43373f5-2b85-4ea5-b483-222867375d21?v=85117050a4ac3897",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/c43373f5-2b85-4ea5-b483-222867375d21?v=85117050a4ac3897",
+    "sort_order": 9
+   },
+   {
+    "id": "8e7cad45-eddd-4bdc-ac86-6a2425344c39",
+    "title": "Реанимакон",
+    "filename": "IMG_2413.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 602572,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/8e7cad45-eddd-4bdc-ac86-6a2425344c39?v=80b9550279d9e853",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/8e7cad45-eddd-4bdc-ac86-6a2425344c39?v=80b9550279d9e853",
+    "sort_order": 10
+   },
+   {
+    "id": "78dec971-2c7d-4515-a47a-a0d5f5e4088a",
+    "title": "Алгоритмы и сложные случаи в аритмологии",
+    "filename": "IMG_2414.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 546501,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/78dec971-2c7d-4515-a47a-a0d5f5e4088a?v=874529addd1842fb",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/78dec971-2c7d-4515-a47a-a0d5f5e4088a?v=874529addd1842fb",
+    "sort_order": 11
+   },
+   {
+    "id": "d202b5b7-4a71-435c-987d-dbd145e76e6c",
+    "title": "Эндокардиоз к собак",
+    "filename": "IMG_2415.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 182384,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/d202b5b7-4a71-435c-987d-dbd145e76e6c?v=2ae361bc5db8f04d",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/d202b5b7-4a71-435c-987d-dbd145e76e6c?v=2ae361bc5db8f04d",
+    "sort_order": 12
+   },
+   {
+    "id": "2d803dd3-bb1a-47d5-8850-3ff55277c445",
+    "title": "Международная ветеринарная конференция",
+    "filename": "IMG_2416.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 503385,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/2d803dd3-bb1a-47d5-8850-3ff55277c445?v=ccaa5f79e6c2aa43",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/2d803dd3-bb1a-47d5-8850-3ff55277c445?v=ccaa5f79e6c2aa43",
+    "sort_order": 13
+   },
+   {
+    "id": "e5fc8e0e-3b9b-449a-b621-d99b78fcc353",
+    "title": "NVC 2017",
+    "filename": "IMG_2417.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 371365,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/e5fc8e0e-3b9b-449a-b621-d99b78fcc353?v=010f38a113d271e0",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/e5fc8e0e-3b9b-449a-b621-d99b78fcc353?v=010f38a113d271e0",
+    "sort_order": 14
+   },
+   {
+    "id": "ba736669-4cd8-4f19-9774-2e2130834075",
+    "title": "Кардиомиопатии у кошек",
+    "filename": "IMG_2418.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 591886,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/ba736669-4cd8-4f19-9774-2e2130834075?v=c4f2c47d144b9c67",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/ba736669-4cd8-4f19-9774-2e2130834075?v=c4f2c47d144b9c67",
+    "sort_order": 15
+   },
+   {
+    "id": "071fab0b-3a93-4d83-b919-12eb4f7444f1",
+    "title": "Стандарты эхокардиографии",
+    "filename": "IMG_2419.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 477479,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/071fab0b-3a93-4d83-b919-12eb4f7444f1?v=8b98422bc98e1477",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/071fab0b-3a93-4d83-b919-12eb4f7444f1?v=8b98422bc98e1477",
+    "sort_order": 16
+   },
+   {
+    "id": "73f75fde-c41f-4ebc-b215-e39f6fa8563b",
+    "title": "NVC 2019",
+    "filename": "IMG_2420.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 361909,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/73f75fde-c41f-4ebc-b215-e39f6fa8563b?v=ca05fa3e47f1adaa",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/73f75fde-c41f-4ebc-b215-e39f6fa8563b?v=ca05fa3e47f1adaa",
+    "sort_order": 17
+   },
+   {
+    "id": "74531ad6-25a3-4f32-aa95-0c4d424eb09b",
+    "title": "Ветеринарный кардиологический конгресс",
+    "filename": "IMG_2421.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 403991,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/74531ad6-25a3-4f32-aa95-0c4d424eb09b?v=c3f1a27fbc4d6785",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/74531ad6-25a3-4f32-aa95-0c4d424eb09b?v=c3f1a27fbc4d6785",
+    "sort_order": 18
+   },
+   {
+    "id": "587bab53-50c5-4c7d-ba3e-db2d1313e439",
+    "title": "Удостоверение о повышении квалификации",
+    "filename": "tempImagehrtsaF.jpg",
+    "doc_type": "повышение квалификации",
+    "content_type": "image/jpeg",
+    "size_bytes": 389665,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/587bab53-50c5-4c7d-ba3e-db2d1313e439?v=69d4c9d0de1653a8",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/587bab53-50c5-4c7d-ba3e-db2d1313e439?v=69d4c9d0de1653a8",
+    "sort_order": 19
+   },
+   {
+    "id": "3995696b-ab93-4532-a46d-864c33f789b1",
+    "title": "Кардиология мелких домашних животных. Модуль №3",
+    "filename": "IMG_2423.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 286538,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/3995696b-ab93-4532-a46d-864c33f789b1?v=25b56245f6d46faa",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/3995696b-ab93-4532-a46d-864c33f789b1?v=25b56245f6d46faa",
+    "sort_order": 20
+   },
+   {
+    "id": "5cfbfc43-f957-41a0-ba63-1fb7cfe3cfb7",
+    "title": "Кардиология мелких домашних животных. Модуль №2",
+    "filename": "IMG_2424.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 277815,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/5cfbfc43-f957-41a0-ba63-1fb7cfe3cfb7?v=a06259b54659b33a",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/5cfbfc43-f957-41a0-ba63-1fb7cfe3cfb7?v=a06259b54659b33a",
+    "sort_order": 21
+   },
+   {
+    "id": "5fc9d8d8-108b-4ca6-ad63-9d4dd8ed2b91",
+    "title": "Кардиология мелких домашних животных. Модуль №1",
+    "filename": "IMG_2425.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 262574,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/5fc9d8d8-108b-4ca6-ad63-9d4dd8ed2b91?v=ef862ed466a93a04",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/5fc9d8d8-108b-4ca6-ad63-9d4dd8ed2b91?v=ef862ed466a93a04",
+    "sort_order": 22
+   },
+   {
+    "id": "b1371bdb-8c86-41fe-a300-361f78f12f39",
+    "title": "Ветеринарная рентгенология",
+    "filename": "IMG_2426.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 330011,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/b1371bdb-8c86-41fe-a300-361f78f12f39?v=cd322475a40033f2",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/b1371bdb-8c86-41fe-a300-361f78f12f39?v=cd322475a40033f2",
+    "sort_order": 23
+   },
+   {
+    "id": "0bf4f421-de2f-46d3-a6c0-238d8c6b1055",
+    "title": "УЗИ МЖД. Модуль №2",
+    "filename": "IMG_2427.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 295504,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/0bf4f421-de2f-46d3-a6c0-238d8c6b1055?v=7bbd3eceb7140749",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/0bf4f421-de2f-46d3-a6c0-238d8c6b1055?v=7bbd3eceb7140749",
+    "sort_order": 24
+   },
+   {
+    "id": "d002b1eb-0a76-4984-959f-4f1092f9f08b",
+    "title": "Кардиология мелких домашних животных. Стажировка.",
+    "filename": "IMG_2428.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 312277,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/d002b1eb-0a76-4984-959f-4f1092f9f08b?v=f6508fe72cf59a13",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/d002b1eb-0a76-4984-959f-4f1092f9f08b?v=f6508fe72cf59a13",
+    "sort_order": 25
+   },
+   {
+    "id": "52fabcd5-507e-4eaf-b006-0b6a7d403676",
+    "title": "Диплом специалиста",
+    "filename": "tempImagelcgwHh.jpg",
+    "doc_type": "документ об образовании",
+    "content_type": "image/jpeg",
+    "size_bytes": 343431,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/52fabcd5-507e-4eaf-b006-0b6a7d403676?v=95448f79242e08ce",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/52fabcd5-507e-4eaf-b006-0b6a7d403676?v=95448f79242e08ce",
+    "sort_order": 26
+   },
+   {
+    "id": "1c48942f-95d5-4a97-b7f8-0ffcc5a73385",
+    "title": "Удостоверение о повышении квалификации",
+    "filename": "tempImagexv0JAs.jpg",
+    "doc_type": "повышение квалификации",
+    "content_type": "image/jpeg",
+    "size_bytes": 326066,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/1c48942f-95d5-4a97-b7f8-0ffcc5a73385?v=dd4c790de3b4d057",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/1c48942f-95d5-4a97-b7f8-0ffcc5a73385?v=dd4c790de3b4d057",
+    "sort_order": 27
+   },
+   {
+    "id": "82c5a749-7d96-4bab-8de3-54368a904702",
+    "title": "Бронхоэктатическая болезнь",
+    "filename": "IMG_2494.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 132355,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/82c5a749-7d96-4bab-8de3-54368a904702?v=e461eb6a147278aa",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/82c5a749-7d96-4bab-8de3-54368a904702?v=e461eb6a147278aa",
+    "sort_order": 28
+   },
+   {
+    "id": "10773682-5d27-4930-b24e-f6775489afa6",
+    "title": "UNITED VISUAL CONGRESS",
+    "filename": "IMG_2495.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 122160,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/10773682-5d27-4930-b24e-f6775489afa6?v=0c7b711896df4815",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/10773682-5d27-4930-b24e-f6775489afa6?v=0c7b711896df4815",
+    "sort_order": 29
+   },
+   {
+    "id": "4ffeee8d-3a0d-477a-89b7-d450639cd629",
+    "title": "УЗИ грудной полости",
+    "filename": "IMG_2496.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 139597,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/4ffeee8d-3a0d-477a-89b7-d450639cd629?v=4cda5375ca92263c",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/4ffeee8d-3a0d-477a-89b7-d450639cd629?v=4cda5375ca92263c",
+    "sort_order": 30
+   },
+   {
+    "id": "398fea94-a57a-410c-af86-2edf7ed4f414",
+    "title": "Все, что вы хотели знать о БАЛ",
+    "filename": "IMG_2497.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 126181,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/398fea94-a57a-410c-af86-2edf7ed4f414?v=6f74b626cb4199c5",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/398fea94-a57a-410c-af86-2edf7ed4f414?v=6f74b626cb4199c5",
+    "sort_order": 31
+   },
+   {
+    "id": "2fca37d6-d662-4e16-ac13-5f43b3d2568c",
+    "title": "Основы пульмонологии",
+    "filename": "IMG_2498.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 123702,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/2fca37d6-d662-4e16-ac13-5f43b3d2568c?v=f2c3ff9d2be3d454",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/2fca37d6-d662-4e16-ac13-5f43b3d2568c?v=f2c3ff9d2be3d454",
+    "sort_order": 32
+   },
+   {
+    "id": "0b9dfd1a-f24c-4641-b49d-49ee51ff2493",
+    "title": "Анатомия, физиология и заболевания органов дыхательной системы",
+    "filename": "IMG_2499.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 115829,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/0b9dfd1a-f24c-4641-b49d-49ee51ff2493?v=2919c0d03b947695",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/0b9dfd1a-f24c-4641-b49d-49ee51ff2493?v=2919c0d03b947695",
+    "sort_order": 33
+   },
+   {
+    "id": "c91cd132-8639-4a73-9c26-516c83077bac",
+    "title": "Миокардиты и эндокардиты",
+    "filename": "IMG_2500.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 219768,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/c91cd132-8639-4a73-9c26-516c83077bac?v=683ab708e54f66cd",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/c91cd132-8639-4a73-9c26-516c83077bac?v=683ab708e54f66cd",
+    "sort_order": 34
+   },
+   {
+    "id": "f72f3055-322a-44f3-bb3e-a81bd862f5d1",
+    "title": "\"Пульмонология для всех\" Модуль №1",
+    "filename": "IMG_2501.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 356147,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/f72f3055-322a-44f3-bb3e-a81bd862f5d1?v=bef513b1282f70bf",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/f72f3055-322a-44f3-bb3e-a81bd862f5d1?v=bef513b1282f70bf",
+    "sort_order": 35
+   },
+   {
+    "id": "8d493167-6f3e-4606-86b9-2fa98eadb743",
+    "title": "\"Пульмонология для всех\" Модуль №2",
+    "filename": "IMG_2502.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 365944,
+    "src": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/8d493167-6f3e-4606-86b9-2fa98eadb743?v=e6404cb9382bbe07",
+    "thumb": "/api/specialists/pushkin-artem-mihaylovich/media/certificates/8d493167-6f3e-4606-86b9-2fa98eadb743?v=e6404cb9382bbe07",
+    "sort_order": 36
+   }
+  ],
+  "source": "database"
+ },
+ {
+  "slug": "sapelkin-ivan-vasilevich",
+  "full_name": "Сапелкин Иван Васильевич",
+  "specialty": "Гастроэнтеролог · Терапевт · Другое",
+  "short_bio": "Ветеринарный врач терапевт-гастроэнтеролог.\n,,К сожалению, гастроэнтерология до сих пор остается загадочным и не простым аспектом в нашей отечественной ветеринарии. Помогу вам разобраться с проблемой вашего питомца и привести работу ЖКТ к балансу,,",
+  "experience": "С 2018г",
+  "photo": "/api/specialists/sapelkin-ivan-vasilevich/media/photo?v=6d8e0ebc0016be6c",
+  "certificates": [
+   {
+    "id": "fd52d735-a5d6-489d-aa41-66e9e00e4b77",
+    "title": "Диплом об образовании",
+    "filename": "e5322261-5768-4d94-856d-63121ea852df.jpg",
+    "doc_type": "диплом",
+    "content_type": "image/jpeg",
+    "size_bytes": 239743,
+    "src": "/api/specialists/sapelkin-ivan-vasilevich/media/certificates/fd52d735-a5d6-489d-aa41-66e9e00e4b77?v=c45638fa5ea2a0df",
+    "thumb": "/api/specialists/sapelkin-ivan-vasilevich/media/certificates/fd52d735-a5d6-489d-aa41-66e9e00e4b77?v=c45638fa5ea2a0df",
+    "sort_order": 1
+   },
+   {
+    "id": "57f33bf7-e61a-4fba-8694-cdd409a26111",
+    "title": "Узкопрофильное образование",
+    "filename": "IMG_4035.jpg",
+    "doc_type": "повышение квалификации",
+    "content_type": "image/jpeg",
+    "size_bytes": 192524,
+    "src": "/api/specialists/sapelkin-ivan-vasilevich/media/certificates/57f33bf7-e61a-4fba-8694-cdd409a26111?v=ad88418a607351f2",
+    "thumb": "/api/specialists/sapelkin-ivan-vasilevich/media/certificates/57f33bf7-e61a-4fba-8694-cdd409a26111?v=ad88418a607351f2",
+    "sort_order": 2
+   },
+   {
+    "id": "9b803ca1-2a84-4fd0-b5a5-851bcfc41dc2",
+    "title": "Эндоскопия",
+    "filename": "IMG_4036.jpg",
+    "doc_type": "повышение квалификации",
+    "content_type": "image/jpeg",
+    "size_bytes": 173594,
+    "src": "/api/specialists/sapelkin-ivan-vasilevich/media/certificates/9b803ca1-2a84-4fd0-b5a5-851bcfc41dc2?v=37c79c238666e557",
+    "thumb": "/api/specialists/sapelkin-ivan-vasilevich/media/certificates/9b803ca1-2a84-4fd0-b5a5-851bcfc41dc2?v=37c79c238666e557",
+    "sort_order": 3
+   }
+  ],
+  "source": "database"
+ },
+ {
+  "slug": "suhareva-anna-georgievna",
+  "full_name": "Сухарева Анна Георгиевна",
+  "specialty": "Дерматолог · УЗИ-диагност · Другое · Терапевт · Гастроэнтеролог",
+  "short_bio": "Ветеринарный врач-дерматолог. \nПомогаю разобраться в кожных проблемах, аллергиях и результатах анализов. Многолетний опыт терапевтический так же имеет важное значение.\nТак же владею знаниями в области  \nнефрологии , репродукции , гастроэнтерологии и ультразвуковой диагностике.\nСчитаю своим лозунгом в работе , что успех лечения заключается в нахождении подхода к каждому пациенту, А так же постоянное совершенствование своих знаний и навыков.",
+  "experience": "С 2014 года",
+  "photo": "/api/specialists/suhareva-anna-georgievna/media/photo?v=e381ad3206984fea",
+  "certificates": [
+   {
+    "id": "4626e549-e6b6-4a21-8b92-b636f270071c",
+    "title": "1000156338",
+    "filename": "1000156338.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 227559,
+    "src": "/api/specialists/suhareva-anna-georgievna/media/certificates/4626e549-e6b6-4a21-8b92-b636f270071c?v=00efd6db8acb86ff",
+    "thumb": "/api/specialists/suhareva-anna-georgievna/media/certificates/4626e549-e6b6-4a21-8b92-b636f270071c?v=00efd6db8acb86ff",
+    "sort_order": 1
+   },
+   {
+    "id": "cb9e3e01-fc9f-4266-b2e9-7349398901f1",
+    "title": "1740484132954",
+    "filename": "1740484132954.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 198379,
+    "src": "/api/specialists/suhareva-anna-georgievna/media/certificates/cb9e3e01-fc9f-4266-b2e9-7349398901f1?v=3daf354651e0f95b",
+    "thumb": "/api/specialists/suhareva-anna-georgievna/media/certificates/cb9e3e01-fc9f-4266-b2e9-7349398901f1?v=3daf354651e0f95b",
+    "sort_order": 2
+   },
+   {
+    "id": "7ea4bc6a-0c21-4808-bc09-b6db4ff6d549",
+    "title": "1740484132947",
+    "filename": "1740484132947.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 90365,
+    "src": "/api/specialists/suhareva-anna-georgievna/media/certificates/7ea4bc6a-0c21-4808-bc09-b6db4ff6d549?v=8b3e2b96cb31e3a7",
+    "thumb": "/api/specialists/suhareva-anna-georgievna/media/certificates/7ea4bc6a-0c21-4808-bc09-b6db4ff6d549?v=8b3e2b96cb31e3a7",
+    "sort_order": 3
+   },
+   {
+    "id": "ef64abf6-170e-44a3-9d4f-0df6d022cee3",
+    "title": "1740484132938",
+    "filename": "1740484132938.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 223795,
+    "src": "/api/specialists/suhareva-anna-georgievna/media/certificates/ef64abf6-170e-44a3-9d4f-0df6d022cee3?v=e30f4f7c47c0378d",
+    "thumb": "/api/specialists/suhareva-anna-georgievna/media/certificates/ef64abf6-170e-44a3-9d4f-0df6d022cee3?v=e30f4f7c47c0378d",
+    "sort_order": 4
+   },
+   {
+    "id": "f9c101a9-5cb8-4912-8438-a1dd1af14ea3",
+    "title": "Screenshot_2026-08-17-00-28-58-928_ru.yandex.disk",
+    "filename": "Screenshot_2026-08-17-00-28-58-928_ru.yandex.disk.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 87235,
+    "src": "/api/specialists/suhareva-anna-georgievna/media/certificates/f9c101a9-5cb8-4912-8438-a1dd1af14ea3?v=eeb8c284349ca833",
+    "thumb": "/api/specialists/suhareva-anna-georgievna/media/certificates/f9c101a9-5cb8-4912-8438-a1dd1af14ea3?v=eeb8c284349ca833",
+    "sort_order": 5
+   },
+   {
+    "id": "4350c1a4-00c2-4403-b7b4-176c50513734",
+    "title": "Атопический дерматит (1)",
+    "filename": "Атопический дерматит (1).jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 240186,
+    "src": "/api/specialists/suhareva-anna-georgievna/media/certificates/4350c1a4-00c2-4403-b7b4-176c50513734?v=c1ad255c3cc64ab9",
+    "thumb": "/api/specialists/suhareva-anna-georgievna/media/certificates/4350c1a4-00c2-4403-b7b4-176c50513734?v=c1ad255c3cc64ab9",
+    "sort_order": 6
+   }
+  ],
+  "source": "database"
+ },
+ {
+  "slug": "schetinina-natalya-yurevna",
+  "full_name": "Щетинина Наталья Юрьевна",
+  "specialty": "Терапевт · Дерматолог · Другое",
+  "short_bio": "Ветеринарный врач-терапевт. Диплом специалиста по специальности «Ветеринария» (Крымский федеральный университет им. В. И. Вернадского, 2016).",
+  "experience": "С 2016",
+  "photo": "/api/specialists/schetinina-natalya-yurevna/media/photo?v=42f1bb790f5206ea",
+  "certificates": [
+   {
+    "id": "edc8ef78-70c0-42af-af16-5173c82c0d98",
+    "title": "Современные аспекты прикладной иммунологии (2017)",
+    "filename": "Современные аспекты прикладной иммунологии (2017).jpg",
+    "doc_type": "участник конференции",
+    "content_type": "image/jpeg",
+    "size_bytes": 279883,
+    "src": "/api/specialists/schetinina-natalya-yurevna/media/certificates/edc8ef78-70c0-42af-af16-5173c82c0d98?v=846c946dfe77cd36",
+    "thumb": "/api/specialists/schetinina-natalya-yurevna/media/certificates/edc8ef78-70c0-42af-af16-5173c82c0d98?v=846c946dfe77cd36",
+    "sort_order": 1
+   },
+   {
+    "id": "76b695f4-da6a-4904-8489-cab0293599cf",
+    "title": "Сертификат специалиста",
+    "filename": "Сертификат специалиста.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 133397,
+    "src": "/api/specialists/schetinina-natalya-yurevna/media/certificates/76b695f4-da6a-4904-8489-cab0293599cf?v=57d3e8c474c567e1",
+    "thumb": "/api/specialists/schetinina-natalya-yurevna/media/certificates/76b695f4-da6a-4904-8489-cab0293599cf?v=57d3e8c474c567e1",
+    "sort_order": 2
+   },
+   {
+    "id": "b5bf0853-6b85-4331-be00-11114a6852bc",
+    "title": "Инфекционные заболевания собак и кошек",
+    "filename": "Инфекционные заболевания собак и кошек.jpg",
+    "doc_type": "участник конференции",
+    "content_type": "image/jpeg",
+    "size_bytes": 192707,
+    "src": "/api/specialists/schetinina-natalya-yurevna/media/certificates/b5bf0853-6b85-4331-be00-11114a6852bc?v=a2734014a08c9ba5",
+    "thumb": "/api/specialists/schetinina-natalya-yurevna/media/certificates/b5bf0853-6b85-4331-be00-11114a6852bc?v=a2734014a08c9ba5",
+    "sort_order": 3
+   },
+   {
+    "id": "847bfd23-1d74-4a2e-98fd-53b4e487c136",
+    "title": "УЗИ мелких домашних животных — первая ступень (19.09.2017)",
+    "filename": "УЗИ мелких домашних животных — первая ступень (19.09.2017).jpg",
+    "doc_type": "мастер-класс",
+    "content_type": "image/jpeg",
+    "size_bytes": 198506,
+    "src": "/api/specialists/schetinina-natalya-yurevna/media/certificates/847bfd23-1d74-4a2e-98fd-53b4e487c136?v=6fe2019c78ede732",
+    "thumb": "/api/specialists/schetinina-natalya-yurevna/media/certificates/847bfd23-1d74-4a2e-98fd-53b4e487c136?v=6fe2019c78ede732",
+    "sort_order": 4
+   },
+   {
+    "id": "fa85ff18-ecec-4420-bce8-5a0ea3dc0702",
+    "title": "Курс подготовки врачей-анестезиологов",
+    "filename": "Курс подготовки врачей-анестезиологов.jpg",
+    "doc_type": "сертификат",
+    "content_type": "image/jpeg",
+    "size_bytes": 466781,
+    "src": "/api/specialists/schetinina-natalya-yurevna/media/certificates/fa85ff18-ecec-4420-bce8-5a0ea3dc0702?v=72ff8f5052590e56",
+    "thumb": "/api/specialists/schetinina-natalya-yurevna/media/certificates/fa85ff18-ecec-4420-bce8-5a0ea3dc0702?v=72ff8f5052590e56",
+    "sort_order": 5
+   },
+   {
+    "id": "8e27a60b-719d-4b3b-b7ef-2da473922adb",
+    "title": "Мастер-класс по обнаружению и лечению боли (2019)",
+    "filename": "Мастер-класс по обнаружению и лечению боли (2019).jpg",
+    "doc_type": "мастер-класс",
+    "content_type": "image/jpeg",
+    "size_bytes": 411870,
+    "src": "/api/specialists/schetinina-natalya-yurevna/media/certificates/8e27a60b-719d-4b3b-b7ef-2da473922adb?v=100bb5f43de8d788",
+    "thumb": "/api/specialists/schetinina-natalya-yurevna/media/certificates/8e27a60b-719d-4b3b-b7ef-2da473922adb?v=100bb5f43de8d788",
+    "sort_order": 6
+   },
+   {
+    "id": "e95c50e5-c098-43d7-842b-6d65ab82b8b2",
+    "title": "VET.CAMP 2020 — сертификат участника",
+    "filename": "VET.CAMP 2020 — сертификат участника.jpg",
+    "doc_type": "участник конференции",
+    "content_type": "image/jpeg",
+    "size_bytes": 203194,
+    "src": "/api/specialists/schetinina-natalya-yurevna/media/certificates/e95c50e5-c098-43d7-842b-6d65ab82b8b2?v=2b146d82c69c14c3",
+    "thumb": "/api/specialists/schetinina-natalya-yurevna/media/certificates/e95c50e5-c098-43d7-842b-6d65ab82b8b2?v=2b146d82c69c14c3",
+    "sort_order": 7
+   }
+  ],
+  "source": "database"
+ }
+]
