@@ -1,0 +1,45 @@
+name: Preview на GitHub Pages
+
+on:
+  push:
+    branches: [redesign]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: bun install --frozen-lockfile
+      # Превью: статический экспорт, noindex, без Метрики, атрибуции и отправки отзывов
+      - run: node node_modules/next/dist/bin/next build
+        env:
+          PREVIEW: '1'
+          BASE_PATH: /2-mnenie-redesign
+          NEXT_TELEMETRY_DISABLED: '1'
+      - run: touch out/.nojekyll
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -7,6 +7,7 @@
 - Решения владельца: [docs/OWNER-DECISIONS.md](docs/OWNER-DECISIONS.md)
 - Аналитика: [docs/ANALYTICS.md](docs/ANALYTICS.md)
 - Скриншоты: [screenshots/](screenshots/)
+- **Превью:** https://pizko.github.io/2-mnenie-redesign/ (собирается из ветки `redesign`, noindex, без Метрики и отправок)
 
 ## Запуск
 Нужны Node.js 20+ и npm или bun.
