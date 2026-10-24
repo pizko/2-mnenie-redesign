@@ -1194,14 +1194,46 @@ ol {
   background: var(--sky);
   overflow: hidden;
 }
-.jv-card > * {
+/* Сцены: видна только та, что соответствует активному шагу */
+.jv-layer {
   position: absolute;
-  transition: opacity 0.6s var(--ease), transform 0.7s var(--ease);
+  inset: 12% 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(24px) scale(0.98);
+  transition: opacity 0.5s var(--ease), transform 0.6s var(--ease), visibility 0s linear 0.6s;
 }
-.jv-files {
-  inset: 10% 10% auto;
-  display: grid;
-  gap: 10px;
+[data-step='0'] [data-for='0'],
+[data-step='1'] [data-for='1'],
+[data-step='2'] [data-for='2'],
+[data-step='3'] [data-for='3'],
+[data-step='4'] [data-for='4'] {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  transition: opacity 0.5s var(--ease) 0.15s, transform 0.6s var(--ease) 0.15s, visibility 0s;
+}
+.jv-msg {
+  max-width: 80%;
+  padding: 10px 14px;
+  border-radius: 16px;
+  font-size: 0.9375rem;
+  box-shadow: var(--shadow);
+}
+.jv-msg.bot {
+  align-self: flex-start;
+  background: var(--paper);
+  border-bottom-left-radius: 4px;
+}
+.jv-msg.me {
+  align-self: flex-end;
+  background: var(--ink);
+  color: var(--white);
+  border-bottom-right-radius: 4px;
 }
 .jv-file {
   background: var(--paper);
@@ -1210,55 +1242,61 @@ ol {
   font-weight: 600;
   font-size: 0.9375rem;
   box-shadow: var(--shadow);
-  transform: translateX(calc((var(--i) - 1.5) * 14px)) rotate(calc((var(--i) - 1.5) * 2deg));
-  transition: transform 0.7s var(--ease), opacity 0.5s;
+  transform: rotate(calc((var(--i) - 1.5) * 1.5deg));
 }
-.jv-check {
-  left: 10%;
-  right: 10%;
-  bottom: 12%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  opacity: 0;
-  transform: translateY(20px);
-}
-.jv-check span {
-  background: var(--white);
-  border-radius: 999px;
-  padding: 6px 12px 6px 30px;
+.jv-hint {
+  color: var(--muted);
   font-size: 0.875rem;
-  position: relative;
-}
-.jv-check span::before {
-  content: '✓';
-  position: absolute;
-  left: 11px;
-  color: var(--ink-2);
-  font-weight: 700;
+  margin-top: 4px;
 }
 .jv-pay,
 .jv-doctor {
-  left: 10%;
-  right: 10%;
-  bottom: 12%;
+  justify-content: center;
+}
+.jv-sum {
+  font: 600 3rem/1 var(--serif);
+}
+.jv-row {
   background: var(--paper);
   border-radius: 14px;
-  padding: 16px 18px;
+  padding: 14px 18px;
   display: flex;
   gap: 12px;
   align-items: center;
   font-weight: 600;
   box-shadow: var(--shadow);
-  opacity: 0;
-  transform: translateY(20px);
+}
+.jv-done::before {
+  content: '✓';
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: var(--sage-soft);
+  flex: none;
 }
 .jv-lock {
-  width: 30px;
-  height: 30px;
+  width: 28px;
+  height: 28px;
   border-radius: 8px;
   background: var(--amber-soft);
   flex: none;
+}
+.jv-anon {
+  background: var(--white);
+  border-radius: 14px;
+  padding: 18px 20px;
+  display: grid;
+  gap: 6px;
+  font-size: 0.9375rem;
+  box-shadow: var(--shadow);
+}
+.jv-hidden {
+  color: var(--muted);
+  border-top: 1px dashed var(--line);
+  padding-top: 8px;
+  margin-top: 4px;
 }
 .jv-avatar {
   width: 42px;
@@ -1267,7 +1305,7 @@ ol {
   background: var(--sage);
   flex: none;
 }
-.jv-doctor small,
+.jv-row small,
 .jv-result small {
   display: block;
   font-weight: 400;
@@ -1275,47 +1313,36 @@ ol {
   font-size: 0.8125rem;
 }
 .jv-result {
-  inset: 18% 12%;
+  inset: 16% 14%;
   background: var(--white);
   border-radius: 14px;
   padding: 28px;
   box-shadow: var(--shadow);
   border-top: 6px solid var(--sage);
-  display: flex;
-  flex-direction: column;
   justify-content: flex-end;
+  gap: 6px;
   font: 600 1.375rem/1.2 var(--serif);
-  opacity: 0;
-  transform: translateY(30px) scale(0.96);
+}
+.jv-pdf {
+  align-self: flex-start;
+  margin-bottom: auto;
+  font: 700 0.8125rem/1 var(--sans);
+  letter-spacing: 0.08em;
+  background: var(--amber-soft);
+  color: var(--amber-ink);
+  padding: 6px 10px;
+  border-radius: 6px;
 }
 .jv-progress {
   margin-top: 12px;
   font-size: 0.875rem;
   color: var(--muted);
 }
-[data-step='1'] .jv-check,
-[data-step='2'] .jv-pay,
-[data-step='3'] .jv-doctor,
-[data-step='4'] .jv-result {
-  opacity: 1;
-  transform: none;
-}
-[data-step='1'] .jv-file {
-  transform: translateX(0) rotate(0);
-}
-[data-step='2'] .jv-files,
-[data-step='3'] .jv-files {
-  opacity: 0.5;
-  transform: translateY(-14px) scale(0.94);
-}
-[data-step='4'] .jv-files {
-  opacity: 0;
-  transform: translateY(-30px) scale(0.85);
-}
 @media (prefers-reduced-motion: reduce) {
-  .jv-card > *,
-  .jv-file {
-    transition: none;
+  .jv-layer,
+  [data-step] [data-for] {
+    transition: none !important;
+    transform: none;
   }
 }
 

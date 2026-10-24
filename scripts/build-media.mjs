@@ -38,7 +38,9 @@ for (const s of specialists) {
   const dir = new URL(`public/media/specialists/${s.slug}/`, root);
   const entry = { photo: null, certificates: [] };
   if (s.photo) {
-    const v = await variants(await download(s.photo), dir, 'photo', [240, 400, 640, 900], 78);
+    // Обрезаем однотонные поля (бывают у фото-скриншотов с телефона — чёрные полосы сверху и снизу)
+    const photo = await sharp(await download(s.photo)).rotate().trim({ background: '#000000', threshold: 40 }).toBuffer();
+    const v = await variants(photo, dir, 'photo', [240, 400, 640, 900], 78);
     entry.photo = { base: `/media/specialists/${s.slug}/photo`, ...v };
   }
   for (const c of s.certificates) {

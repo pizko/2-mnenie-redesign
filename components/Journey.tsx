@@ -27,32 +27,48 @@ export function Journey({ steps }: { steps: JourneyStep[] }) {
     <div className="journey">
       <div className="journey-visual" aria-hidden="true" data-step={active}>
         <div className="jv-card">
-          <div className="jv-files">
+          {/* Каждому шагу справа — своя сцена; остальные спрятаны */}
+          <div className="jv-layer jv-chat" data-for="0">
+            <span className="jv-msg bot">Кто ваш питомец: вид, возраст, вес?</span>
+            <span className="jv-msg me">Собака, йорк, 6 лет, 2,8 кг</span>
+            <span className="jv-msg bot">Что беспокоит и что уже делали?</span>
+            <span className="jv-msg bot">Какой вопрос задать врачу?</span>
+          </div>
+          <div className="jv-layer jv-files" data-for="1">
             {['Выписка.pdf', 'Анализы.pdf', 'Рентген.dcm', 'Видео.mp4'].map((f, i) => (
               <span key={f} className="jv-file" style={{ ['--i' as string]: i }}>
                 {f}
               </span>
             ))}
+            <small className="jv-hint">до 20 файлов · до 200 МБ каждый</small>
           </div>
-          <div className="jv-check">
-            <span>Анамнез</span>
-            <span>Материалы</span>
-            <span>Вопросы владельца</span>
+          <div className="jv-layer jv-pay" data-for="2">
+            <span className="jv-sum">3 500 ₽</span>
+            <span className="jv-row">
+              <span className="jv-lock" />
+              Оплата картой · ЮKassa
+            </span>
+            <span className="jv-row jv-done">Заявка передана профильному врачу</span>
           </div>
-          <div className="jv-pay">
-            <span className="jv-lock" />
-            Оплата · ЮKassa
-          </div>
-          <div className="jv-doctor">
-            <span className="jv-avatar" />
-            <span>
-              Профильный врач
-              <small>видит обезличенную карточку</small>
+          <div className="jv-layer jv-doctor" data-for="3">
+            <span className="jv-anon">
+              <b>Карточка пациента</b>
+              <span>Собака · 6 лет · 2,8 кг</span>
+              <span>Жалобы, анамнез, 4 файла</span>
+              <span className="jv-hidden">Контакты владельца скрыты</span>
+            </span>
+            <span className="jv-row">
+              <span className="jv-avatar" />
+              <span>
+                Профильный врач
+                <small>изучает материалы</small>
+              </span>
             </span>
           </div>
-          <div className="jv-result">
+          <div className="jv-layer jv-result" data-for="4">
+            <span className="jv-pdf">PDF</span>
             <b>Заключение.pdf</b>
-            <small>подпись врача · в боте и кабинете</small>
+            <small>подпись врача · в боте и личном кабинете</small>
           </div>
         </div>
         <p className="jv-progress">
