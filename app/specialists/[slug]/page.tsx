@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
-import { BotCta } from '@/components/BotCta';
+import { LeadButton } from '@/components/LeadForm';
 import { CertGallery } from '@/components/CertGallery';
 import { Picture } from '@/components/Picture';
 import { ReviewCard, Stars } from '@/components/ReviewCard';
@@ -92,7 +92,7 @@ export default async function SpecialistPage({ params }: { params: Promise<{ slu
               )}
             </dl>
             <div className="hero-actions">
-              <BotCta source="specialist">Оформить в Telegram</BotCta>
+              <LeadButton place="specialist" />
               {s.certificates.length > 0 && (
                 <a href="#documents" className="btn btn-ghost">
                   Документы

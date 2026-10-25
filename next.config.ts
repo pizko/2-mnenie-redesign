@@ -10,6 +10,7 @@ const config: NextConfig = {
   env: {
     NEXT_PUBLIC_PREVIEW: preview ? '1' : '0',
     NEXT_PUBLIC_BASE_PATH: basePath,
+    NEXT_PUBLIC_LEAD_ENDPOINT: preview ? '' : process.env.LEAD_ENDPOINT ?? '',
   },
   ...(preview
     ? { output: 'export' as const, basePath, trailingSlash: true }

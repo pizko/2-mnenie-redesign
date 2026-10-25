@@ -84,10 +84,10 @@ const ok = (c, m) => log.push(`${c ? 'ok  ' : 'FAIL'} ${m}`);
   });
   await p.evaluate(() => { window.__nav = null; });
   const nav = p.waitForURL(/t\.me/);
-  await p.click('.hero .btn-primary');
+  await p.click('.channel-note a');
   await nav;
   ok(p.url() === 'https://t.me/randomtox_bot?start=TEST123', `переход в бота с start-параметром (${p.url()})`);
-  ok(posted[0]?.source === 'hero' && posted[0]?.ym_client_id === '777' && posted[0]?.landing_path === '/', `POST атрибуции: ${JSON.stringify(posted[0])}`);
+  ok(posted[0]?.source === 'hero_tg' && posted[0]?.ym_client_id === '777' && posted[0]?.landing_path === '/', `POST атрибуции: ${JSON.stringify(posted[0])}`);
   await ctx.close();
 }
 // 5. Атрибуция не отвечает → через 1,5 с в бота без параметра
@@ -99,7 +99,7 @@ const ok = (c, m) => log.push(`${c ? 'ok  ' : 'FAIL'} ${m}`);
   const p = await ctx.newPage();
   await p.goto(BASE + '/');
   const t = Date.now();
-  await Promise.all([p.waitForURL(/t\.me/), p.click('.hero .btn-primary')]);
+  await Promise.all([p.waitForURL(/t\.me/), p.click('.channel-note a')]);
   ok(p.url() === 'https://t.me/randomtox_bot' && Date.now() - t < 3000, `таймаут атрибуции: ${p.url()} за ${Date.now() - t} мс`);
   await ctx.close();
 }
@@ -115,6 +115,44 @@ const ok = (c, m) => log.push(`${c ? 'ok  ' : 'FAIL'} ${m}`);
   await p.waitForTimeout(200);
   ok((await p.textContent('.dose-count')).match(/Найдено: [1-9]/) !== null, `поиск: ${await p.textContent('.dose-count')}`);
   await p.close();
+}
+// 7. Форма заявки: открытие, валидация, вложения, согласие, отправка (приёмник подменён)
+{
+  const ctx = await b.newContext({ viewport: { width: 390, height: 844 } });
+  await ctx.addInitScript(() => localStorage.setItem('cookie-consent', 'necessary'));
+  const sent = [];
+  await ctx.route('**/__lead-test', async (r) => {
+    sent.push(r.request().postDataBuffer()?.length ?? 0);
+    await r.fulfill({ json: { ok: true } });
+  });
+  const p = await ctx.newPage();
+  await p.goto(BASE + '/');
+  await p.click('.hero .btn-primary');
+  ok(await p.isVisible('dialog.lead-dialog[open]'), 'кнопка в hero открывает форму');
+  ok(await p.evaluate(() => document.activeElement?.closest('dialog.lead-dialog') !== null), 'фокус внутри формы');
+  await p.click('dialog.lead-dialog button[type=submit]');
+  const errs = await p.$$eval('dialog.lead-dialog .field-err', (els) => els.length);
+  ok(errs === 5, `пустая форма: ${errs} ошибок (имя, почта, телефон, описание, согласие)`);
+  ok(await p.evaluate(() => document.activeElement?.getAttribute('name') === 'name'), 'фокус на первом ошибочном поле');
+  await p.fill('[name=name]', 'Тест');
+  await p.fill('[name=email]', 'test@example.com');
+  await p.fill('[name=phone]', '+7 900 000-00-00');
+  await p.fill('[name=story]', 'Тестовая заявка: кошка 5 лет, проверка формы, ничего не отправлять.');
+  await p.setInputFiles('dialog.lead-dialog input[type=file]', { name: 'analiz.pdf', mimeType: 'application/pdf', buffer: Buffer.from('%PDF-1.4 test') });
+  ok((await p.$$eval('.file-list li', (l) => l.length)) === 1, 'вложение добавлено в список');
+  await p.check('[name=consent]');
+  await p.screenshot({ path: `${OUT}/lead-form-390.png`, fullPage: false });
+  await p.click('dialog.lead-dialog button[type=submit]');
+  await p.waitForTimeout(500);
+  const status = (await p.textContent('dialog.lead-dialog')) ?? '';
+  if (process.env.EXPECT_LEAD_ENDPOINT) {
+    ok(sent.length === 1 && status.includes('Спасибо'), `заявка ушла на подменённый приёмник (${sent[0]} байт) и показано «Спасибо»`);
+  } else {
+    ok(sent.length === 0 && /превью|недоступен/.test(status), 'без настроенного приёмника форма ничего не отправляет и сообщает об этом');
+  }
+  await p.keyboard.press('Escape');
+  ok(!(await p.isVisible('dialog.lead-dialog[open]')), 'Esc закрывает форму');
+  await ctx.close();
 }
 await b.close();
 console.log(log.join('\n'));

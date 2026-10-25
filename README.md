@@ -17,7 +17,7 @@ bun install            # или npm install
 npm run data           # (опц.) обновить снимок из API боевого сайта → data/*.json
 npm run media          # (опц.) фото и сертификаты врачей → public/media (webp)
 node scripts/build-og.mjs   # (опц.) OG-картинки → public/og (нужен Playwright)
-npm run build && npm start  # production-режим: http://localhost:3000
+LEAD_ENDPOINT=https://… npm run build && npm start  # production; LEAD_ENDPOINT — приёмник формы заявки
 ```
 
 Без сети сборка идёт по закоммиченному снимку `data/` и `public/media`.

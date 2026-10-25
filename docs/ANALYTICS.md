@@ -13,13 +13,15 @@
 
 | Цель | Когда | Параметры |
 |---|---|---|
-| `cta_click` | нажатие любой CTA «Оформить в Telegram» | `place`: hero, header, mobile_menu, pricing, final, mobile_fab, specialist, catalog, reviews, not_found, article_<slug> |
+| `cta_click` | нажатие ссылки «Оформить в Telegram» (теперь вторичный путь) | `place`: hero, header, mobile_menu, pricing, final, mobile_fab, specialist, catalog, reviews, not_found, article_<slug> |
 | `site_to_bot` | то же нажатие (как раньше) | `source` = place |
 | `sample_open` | открытие примера заключения (якорь или PDF) | `place`: hero, sample_section |
 | `specialist_open` | переход к карточке врача | `place`: home, catalog; `slug` |
 | `faq_open` | раскрытие вопроса FAQ | `place`, `n` (номер вопроса) |
+| `lead_form_open` | открыта форма заявки (главная кнопка «Получить второе мнение — 3 500 ₽») | `place`: hero, header, pricing, final, mobile_fab, mobile_menu, specialist, catalog, reviews, not_found, article_<slug> |
+| `lead_form_submit` | приёмник ответил «ок» на заявку. **Это не оплата.** | `place` |
 
-Никаких жалоб, текстов форм, имён, контактов и файлов в Метрику не уходит. Отзыв о враче отправляется только в API и в Метрику не передаётся.
+Содержимое формы заявки (имя, почта, телефон, описание, файлы) в Метрику не передаётся. Никаких жалоб, текстов форм, имён, контактов и файлов в Метрику не уходит. Отзыв о враче отправляется только в API и в Метрику не передаётся.
 
 ## Чего на сайте измерить нельзя
 - **Переход в Telegram ≠ заявка ≠ оплата.** `site_to_bot` — это только клик.

@@ -1,6 +1,6 @@
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { ReviewCard } from '@/components/ReviewCard';
-import { BotCta } from '@/components/BotCta';
+import { LeadButton } from '@/components/LeadForm';
 import { reviews, pluralRu } from '@/lib/data';
 import { pageMeta } from '@/lib/seo';
 
@@ -34,7 +34,7 @@ export default function ReviewsPage() {
       </section>
       <section className="wrap narrow cta-band" data-reveal>
         <p>Получили заключение? Оценку можно оставить на странице врача или по ссылке из бота.</p>
-        <BotCta source="reviews">Оформить в Telegram</BotCta>
+        <LeadButton place="reviews" />
       </section>
     </>
   );

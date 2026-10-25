@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
-import { BotCta } from '@/components/BotCta';
+import { LeadButton } from '@/components/LeadForm';
 import { Faq } from '@/components/Faq';
 import { JsonLd } from '@/components/JsonLd';
 import { Picture } from '@/components/Picture';
@@ -142,9 +142,9 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
               <p className="eyebrow">Если нужен разбор вашего случая</p>
               <p>{a.cta || 'Врач изучит документы вашего питомца и подготовит письменное заключение.'}</p>
               <p className="fine">
-                {service.priceLabel} · {service.turnaround} {service.turnaroundStart} · оформление в Telegram-боте
+                {service.priceLabel} · {service.turnaround} {service.turnaroundStart} · заявка на сайте или в Telegram
               </p>
-              <BotCta source={`article_${a.slug}`.slice(0, 60)}>Оформить второе мнение</BotCta>
+              <LeadButton place={`article_${a.slug}`.slice(0, 60)} className="btn btn-light" />
             </aside>
 
             {a.faq.length > 0 && (

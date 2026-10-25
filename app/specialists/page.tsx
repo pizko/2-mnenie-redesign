@@ -1,6 +1,6 @@
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { SpecialistCard } from '@/components/SpecialistCard';
-import { BotCta } from '@/components/BotCta';
+import { LeadButton } from '@/components/LeadForm';
 import { specialists } from '@/lib/data';
 import { pageMeta } from '@/lib/seo';
 
@@ -38,8 +38,8 @@ export default function SpecialistsPage() {
         </div>
       </section>
       <section className="wrap cta-band" data-reveal>
-        <p>Не знаете, к кому обратиться? Опишите ситуацию в боте — диспетчер передаст заявку профильному врачу.</p>
-        <BotCta source="catalog">Оформить в Telegram</BotCta>
+        <p>Не знаете, к кому обратиться? Опишите ситуацию в заявке — диспетчер передаст её профильному врачу.</p>
+        <LeadButton place="catalog" />
       </section>
     </>
   );

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import { BotCta } from '@/components/BotCta';
+import { LeadButton } from '@/components/LeadForm';
 
 // Без canonical: у 404 его быть не должно (раньше шаблон ссылался на главную)
 export const metadata: Metadata = {
@@ -28,9 +28,7 @@ export default function NotFound() {
           <Link href="/dosages">Справочник дозировок</Link>
         </li>
       </ul>
-      <BotCta source="not_found" className="btn btn-primary">
-        Оформить в Telegram
-      </BotCta>
+<LeadButton place="not_found" />
     </section>
   );
 }

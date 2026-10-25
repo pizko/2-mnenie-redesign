@@ -2607,3 +2607,225 @@ ol {
     left: 56%;
   }
 }
+
+/* ---------- Форма заявки ---------- */
+.lead-dialog {
+  border: 0;
+  padding: 0;
+  width: min(720px, 100vw - 24px);
+  max-height: calc(100dvh - 24px);
+  border-radius: var(--r-l);
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: 0 40px 80px -30px rgba(18, 59, 62, 0.5);
+}
+.lead-dialog::backdrop {
+  background: rgba(18, 59, 62, 0.6);
+  backdrop-filter: blur(2px);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .lead-dialog[open] {
+    animation: lead-in 0.35s var(--ease);
+  }
+  .lead-dialog[open]::backdrop {
+    animation: fade 0.3s var(--ease);
+  }
+}
+@keyframes lead-in {
+  from {
+    opacity: 0;
+    transform: translateY(24px) scale(0.98);
+  }
+}
+@media (max-width: 640px) {
+  .lead-dialog {
+    width: 100vw;
+    max-width: 100vw;
+    max-height: 100dvh;
+    height: 100dvh;
+    margin: 0;
+    border-radius: 0;
+  }
+}
+.lead-inner {
+  position: relative;
+  padding: clamp(22px, 4vw, 40px);
+}
+.lead-dialog h2 {
+  font-size: clamp(1.5rem, 1.2rem + 1.2vw, 2rem);
+  margin-bottom: 10px;
+  padding-right: 40px;
+}
+.lead-sub {
+  color: var(--muted);
+}
+.lead-dialog form {
+  display: grid;
+  gap: 16px;
+}
+.lead-dialog form > .eyebrow,
+.lead-dialog form > h2,
+.lead-dialog form > .lead-sub {
+  margin-bottom: 0;
+}
+.lead-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1.5px solid var(--line);
+  background: var(--white);
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--ink);
+  cursor: pointer;
+}
+.lead-close:hover {
+  background: var(--sage-soft);
+}
+.lead-grid {
+  display: grid;
+  gap: 16px;
+}
+@media (min-width: 640px) {
+  .lead-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .lead-grid > :first-child {
+    grid-column: 1 / -1;
+  }
+}
+.field b {
+  color: var(--danger);
+  font-weight: 600;
+}
+.field [aria-invalid='true'] {
+  border-color: var(--danger);
+}
+.field-err {
+  color: var(--danger);
+  font-size: 0.875rem;
+}
+.dropzone {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 84px;
+  padding: 14px;
+  border: 1.5px dashed var(--sage);
+  border-radius: var(--r-s);
+  background: var(--white);
+  text-align: center;
+  color: var(--muted);
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+.dropzone:hover,
+.dropzone:focus-within {
+  background: var(--sage-soft);
+  border-color: var(--ink-2);
+}
+.dropzone:focus-within {
+  outline: 3px solid var(--amber);
+  outline-offset: 2px;
+}
+.dropzone b {
+  color: var(--ink);
+}
+.dropzone.is-invalid {
+  border-color: var(--danger);
+}
+.dropzone input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.file-list {
+  list-style: none;
+  display: grid;
+  gap: 6px;
+}
+.file-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--white);
+  border: 1px solid var(--line-2);
+  border-radius: 8px;
+  padding: 6px 6px 6px 12px;
+  font-size: 0.9375rem;
+}
+.file-list li span {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.file-list small {
+  color: var(--muted);
+}
+.file-list button {
+  width: 32px;
+  height: 32px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--milk);
+  cursor: pointer;
+  font-size: 1.125rem;
+  color: var(--ink);
+}
+.check {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  cursor: pointer;
+}
+.check input {
+  flex: none;
+  width: 22px;
+  height: 22px;
+  margin-top: 1px;
+  accent-color: var(--ink);
+}
+.check.is-invalid input {
+  outline: 2px solid var(--danger);
+  outline-offset: 1px;
+}
+.check b {
+  color: var(--danger);
+}
+.lead-legal {
+  margin: 0;
+}
+.lead-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 24px;
+}
+.hp {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+}
+.lead-done {
+  display: grid;
+  gap: 12px;
+  justify-items: start;
+}
+.channel-note a {
+  font-weight: 600;
+}
+html:has(.lead-dialog[open]) {
+  overflow: hidden;
+}
+
+.field > span.fine,
+.field > .field-err {
+  font-weight: 400;
+}

@@ -9,6 +9,9 @@ export const SITE_URL = 'https://2-mnenie.ru';
 export const APP_ORIGIN = IS_PREVIEW ? SITE_URL : '';
 export const API_URL = `${SITE_URL}/api`;
 
+/** Приёмник заявок с формы (multipart/form-data). Пока не задан — форма честно сообщает, что приём недоступен. */
+export const LEAD_ENDPOINT = process.env.NEXT_PUBLIC_LEAD_ENDPOINT || '';
+
 export const BOT_URL = 'https://t.me/randomtox_bot';
 export const METRIKA_ID = 111152079;
 export const CONTACT_EMAIL = 'info@2-mnenie.ru';

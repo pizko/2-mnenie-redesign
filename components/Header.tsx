@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
 import { APP_ORIGIN, asset } from '@/lib/config';
-import { BotCta } from './BotCta';
+import { LeadButton } from './LeadForm';
 
 const NAV = [
   { href: '/#how', label: 'Как это работает' },
@@ -63,9 +63,9 @@ export function Header() {
           <a href={`${APP_ORIGIN}/login`} className="link-quiet hide-sm">
             Кабинет
           </a>
-          <BotCta source="header" className="btn btn-primary btn-sm hide-sm">
-            Оформить в Telegram
-          </BotCta>
+          <LeadButton place="header" className="btn btn-primary btn-sm hide-sm">
+            Получить второе мнение
+          </LeadButton>
           <button
             ref={btn}
             type="button"
@@ -95,10 +95,13 @@ export function Header() {
           </Link>
           <a href={`${APP_ORIGIN}/login`}>Личный кабинет</a>
         </nav>
-        <BotCta source="mobile_menu" className="btn btn-primary btn-block">
-          Оформить в Telegram
-        </BotCta>
-        <p className="fine">Заявка, файлы и оплата — в Telegram-боте @randomtox_bot.</p>
+        <LeadButton
+          place="mobile_menu"
+          className="btn btn-primary btn-block"
+        />
+        <p className="fine">
+          Или оформите обращение в Telegram-боте <a href="https://t.me/randomtox_bot">@randomtox_bot</a>.
+        </p>
       </div>
     </>
   );

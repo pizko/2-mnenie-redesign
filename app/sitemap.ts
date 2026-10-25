@@ -19,6 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: abs('/documents/offer'), lastModified: '2026-08-14' },
     { url: abs('/documents/privacy'), lastModified: '2026-08-14' },
     { url: abs('/documents/disclaimer') },
+    { url: abs('/documents/consent') },
     ...specialists.map((s) => ({ url: abs(`/specialists/${s.slug}`) })),
     ...articles.map((a) => ({ url: abs(`/articles/${a.slug}`), lastModified: articleModified(a) })),
   ];

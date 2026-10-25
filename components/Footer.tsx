@@ -41,6 +41,7 @@ export function Footer() {
           <Link href="/documents/offer">Публичная оферта</Link>
           <Link href="/documents/privacy">Политика конфиденциальности</Link>
           <Link href="/documents/disclaimer">Важная информация</Link>
+          <Link href="/documents/consent">Согласие на обработку данных</Link>
           <CookieSettingsButton />
         </nav>
       </div>

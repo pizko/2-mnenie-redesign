@@ -5,6 +5,7 @@ import { Footer } from '@/components/Footer';
 import { ConsentBanner } from '@/components/ConsentBanner';
 import { Metrika } from '@/components/Metrika';
 import { Motion } from '@/components/Motion';
+import { LeadDialog } from '@/components/LeadForm';
 import { IS_PREVIEW, SITE_URL, asset } from '@/lib/config';
 import { fontCss, fontPreload } from './fonts';
 
@@ -50,6 +51,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main id="main">{children}</main>
         <Footer />
+        <LeadDialog />
         <ConsentBanner />
         <Metrika />
         <Motion />

@@ -15,8 +15,10 @@ declare global {
  *  - cta_click        — нажатие основного CTA, params.place
  *  - sample_open      — открытие примера заключения, params.place
  *  - specialist_open  — переход к карточке врача, params.place, params.slug
+ *  - lead_form_open   — открыта форма заявки, params.place
+ *  - lead_form_submit — заявка принята приёмником (не оплата!), params.place
  */
-export type Goal = 'site_to_bot' | 'cta_click' | 'sample_open' | 'specialist_open' | 'faq_open';
+export type Goal = 'site_to_bot' | 'cta_click' | 'sample_open' | 'specialist_open' | 'faq_open' | 'lead_form_open' | 'lead_form_submit';
 
 export function track(goal: Goal, params: Record<string, string> = {}) {
   if (IS_PREVIEW) {

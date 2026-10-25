@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { BotCta } from '@/components/BotCta';
+import { LeadButton } from '@/components/LeadForm';
 import { HeroStory } from '@/components/HeroStory';
 import { Journey } from '@/components/Journey';
 import { Faq } from '@/components/Faq';
@@ -70,7 +71,7 @@ const faq = [
   },
   {
     q: 'Как и где оплатить?',
-    a: `Стоимость — ${service.priceLabel}, оплата ${service.payment}. Оформление и оплата проходят в Telegram-боте ${service.botName}; работа начинается после 100% предоплаты.`,
+    a: `Стоимость — ${service.priceLabel}, оплата ${service.payment}. Заявку можно оставить на сайте или в Telegram-боте ${service.botName}; врач начинает работу после 100% предоплаты.`,
   },
   {
     q: 'Можно ли выбрать врача?',
@@ -159,16 +160,20 @@ export default function Home() {
               </div>
             </dl>
             <div className="hero-actions hero-in" style={{ ['--d' as string]: 4 }}>
-              <BotCta source="hero" className="btn btn-primary btn-lg">
-                Оформить в Telegram
-              </BotCta>
+              <LeadButton place="hero" className="btn btn-primary btn-lg" />
               <TrackedLink href="/#sample" goal="sample_open" params={{ place: 'hero' }} className="btn btn-ghost btn-lg">
                 Посмотреть пример заключения
               </TrackedLink>
             </div>
             <p className="channel-note hero-in" style={{ ['--d' as string]: 5 }}>
               <span className="tg-icon" aria-hidden="true" />
-              Анкета, файлы и оплата — в Telegram-боте {service.botName}. Кнопка откроет Telegram.
+              <span>
+                Кнопка откроет короткую форму заявки — документы можно приложить сразу. Удобнее в Telegram?{' '}
+                <BotCta source="hero_tg" className="">
+                  Оформите в боте {service.botName}
+                </BotCta>
+                .
+              </span>
             </p>
           </div>
           <HeroStory />
@@ -295,11 +300,11 @@ export default function Home() {
           <Journey
             steps={[
               {
-                title: 'Расскажите о питомце в боте',
+                title: 'Оставьте заявку',
                 text: (
                   <p>
-                    Бот {service.botName} по шагам соберёт анамнез: вид, возраст, жалобы, что уже делали и какой у вас
-                    вопрос. Это помогает ничего не упустить.
+                    В форме на сайте или в Telegram-боте {service.botName}: вид и возраст питомца, что беспокоит, что
+                    уже делали и какой у вас вопрос к врачу.
                   </p>
                 ),
               },
@@ -351,9 +356,9 @@ export default function Home() {
             <p className="price-terms">
               Оплата {service.payment} · 100% предоплата · заключение {service.turnaround} {service.turnaroundStart}
             </p>
-            <BotCta source="pricing" className="btn btn-light btn-lg">
-              Оформить в Telegram
-            </BotCta>
+            <LeadButton place="pricing" className="btn btn-light btn-lg">
+              Оставить заявку
+            </LeadButton>
           </div>
           <div className="price-cols" data-reveal>
             <div>
@@ -498,14 +503,12 @@ export default function Home() {
       {/* М. Финальное действие */}
       <section className="final" aria-labelledby="final-h">
         <div className="wrap final-inner" data-reveal>
-          <h2 id="final-h">Соберите документы — остальное подскажет бот</h2>
+          <h2 id="final-h">Соберите документы и оставьте заявку</h2>
           <p>
             {service.priceLabel} · {service.turnaround} {service.turnaroundStart} · заключение в PDF с подписью врача
           </p>
           <div className="hero-actions">
-            <BotCta source="final" className="btn btn-primary btn-lg">
-              Оформить в Telegram
-            </BotCta>
+            <LeadButton place="final" className="btn btn-primary btn-lg" />
             <Link href="/specialists" className="btn btn-ghost btn-lg">
               Познакомиться с врачами
             </Link>
@@ -514,9 +517,7 @@ export default function Home() {
       </section>
 
       <div className="mobile-cta">
-        <BotCta source="mobile_fab" className="btn btn-primary btn-block">
-          Оформить в Telegram · {service.priceLabel}
-        </BotCta>
+        <LeadButton place="mobile_fab" className="btn btn-primary btn-block" />
       </div>
     </>
   );
